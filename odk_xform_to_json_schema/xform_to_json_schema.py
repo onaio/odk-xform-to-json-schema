@@ -1,5 +1,3 @@
-import json
-
 from pyxform.question_type_dictionary import QUESTION_TYPE_DICT
 
 
@@ -123,4 +121,4 @@ def convert_xform_to_json_schema(xform: dict) -> str:
 
     schema_properties = get_child_properties(xform["children"])
 
-    return json.dumps(compose_json_schema_properties(schema_properties), indent=2)
+    return compose_json_schema_properties(schema_properties)
