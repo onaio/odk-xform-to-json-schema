@@ -1,7 +1,11 @@
-from pyxform.question_type_dictionary import QUESTION_TYPE_DICT
+from pyxform import QUESTION_TYPE_DICT, constants
+from pyxform.aliases import control
 
 
-def convert_xform_to_json_schema(xform: dict) -> str:
+# TODO: re-look at the best naming conventions for this module:
+# function names, variable names, module name etc
+# TODO: update docstring
+def xform_to_json_schema(xform: dict):
     """Generate a `JSON Schema` from an `ODK XForm Schema`.
 
     This function parses an ODK XForm schema in JSON format
@@ -22,16 +26,18 @@ def convert_xform_to_json_schema(xform: dict) -> str:
 
     Example
     --------
-    >>> convert_xform_to_json_schema({"children":[{"name":"start","type":"start"}]})
+    >>> xform_to_json_schema({"children":[{"name":"start","type":"start"}]})
     """
 
-    xform_question_name_to_question_type = {
+    xform_q_name_q_type_dict = {
         k: v.get("bind", {}).get("type", "string")
         for k, v in QUESTION_TYPE_DICT.items()
     }
 
-    # set(xform_question_name_to_question_type.values())
-    xform_type_to_json_schema_type = {
+    # TODO: get forms that use these types to see their representations
+    # TODO: confirm these types map to JSON Schema types seamlessly
+    # set(xform_q_name_q_type_dict.values())
+    xform_to_json_schema_type = {
         "string": "string",
         "int": "integer",
         "decimal": "number",
@@ -46,9 +52,9 @@ def convert_xform_to_json_schema(xform: dict) -> str:
         "geopoint": "string",
     }
 
-    xform_type_to_json_schema_type_mapper = {
-        k: xform_type_to_json_schema_type.get(v, "string")
-        for k, v in xform_question_name_to_question_type.items()
+    xform_to_json_schema_type_mapper = {
+        k: xform_to_json_schema_type.get(v, "string")
+        for k, v in xform_q_name_q_type_dict.items()
     }
 
     def get_child_properties(children, path="") -> list[dict]:
@@ -74,51 +80,50 @@ def convert_xform_to_json_schema(xform: dict) -> str:
         schema_properties = []
         for child in children:
             child_name = child.get("name")
-            child_type = child.get("type")
             child_path = f"{path}/{child_name}" if path else child_name
-            if child_type == "group":
-                schema_properties += get_child_properties(child["children"], child_path)
-            elif child_type == "repeat":
-                repeat_group = {
-                    child_path: {
-                        "type": "array",
-                        "items": {
-                            "type": "object",
-                            "properties": {
-                                k: v
-                                for prop in get_child_properties(
-                                    child["children"], child_path
-                                )
-                                for k, v in prop.items()
-                            },
-                        },
-                    }
-                }
-                schema_properties.append(repeat_group)
-            else:
-                child_lookup_type = xform_type_to_json_schema_type_mapper.get(
-                    child["type"], "string"
-                )
-                schema_properties.append({child_path: {"type": child_lookup_type}})
-        return schema_properties
+            child_control_type = control.get(child.get("type"))
 
-    # json_schema_template["properties"] = {
-    #     k: v for d in get_child_properties(xform["children"]) for k, v in d.items()
-    # }
+            # TODO: is constants.LOOP comparable to constants.REPEAT?
+            # nested control groups
+            if child_control_type in (constants.GROUP, constants.REPEAT):
+                nested_properties = get_child_properties(child["children"], child_path)
+
+                if child_control_type == constants.GROUP:
+                    schema_properties += nested_properties
+                # TODO: child_control_type in (constants.REPEAT, constants.LOOP):
+                elif child_control_type == constants.REPEAT:
+                    repeat_group = {
+                        child_path: {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    k: v
+                                    for prop in nested_properties
+                                    for k, v in prop.items()
+                                },
+                            },
+                        }
+                    }
+                    schema_properties.append(repeat_group)
+            else:
+                schema_properties.append(
+                    {
+                        child_path: {
+                            "type": xform_to_json_schema_type_mapper.get(
+                                child["type"], "string"
+                            )
+                        }
+                    }
+                )
+        return schema_properties
 
     def compose_json_schema_properties(schema_properties: list[dict]):
         json_schema_template = {
             "$schema": "http://json-schema.org/draft-07/schema#",
             "type": "object",
-            "properties": {},
-        }
-        # for schema_property in schema_properties:
-        #     json_schema_template["properties"].update(schema_property)
-        json_schema_template["properties"] = {
-            k: v for d in schema_properties for k, v in d.items()
+            "properties": {k: v for prop in schema_properties for k, v in prop.items()},
         }
         return json_schema_template
 
-    schema_properties = get_child_properties(xform["children"])
-
-    return compose_json_schema_properties(schema_properties)
+    return compose_json_schema_properties(get_child_properties(xform["children"]))
