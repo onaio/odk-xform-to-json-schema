@@ -1,6 +1,12 @@
 from pyxform import QUESTION_TYPE_DICT, constants
 from pyxform.aliases import control
 
+from .metadata_schema import (
+    extra_fields,
+    json_schema_from_metadata,
+    metadata_fields_type,
+)
+
 
 def get_xform_type_to_json_schema_type_lookup():
     xform_q_name_to_q_type = {
@@ -81,11 +87,20 @@ def get_schema_properties(
     return schema_properties
 
 
-def xform_to_json_schema(xform: dict):
-    return {
+def xform_to_json_schema(xform: dict, include_meta_data: bool = True):
+    schema = {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
         "properties": {
             k: v for prop in get_schema_properties(xform) for k, v in prop.items()
         },
     }
+
+    if include_meta_data:
+        schema["properties"].update(
+            json_schema_from_metadata({**metadata_fields_type, **extra_fields})[
+                "properties"
+            ]
+        )
+
+    return schema
