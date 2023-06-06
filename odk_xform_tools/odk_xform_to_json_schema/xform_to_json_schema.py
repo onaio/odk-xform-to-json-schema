@@ -94,6 +94,10 @@ def xform_to_json_schema(xform: dict, include_meta_data: bool = True):
         "properties": {
             k: v for prop in get_schema_properties(xform) for k, v in prop.items()
         },
+        # accept additional properties not explicitly defined in schema/xform
+        "additionalProperties": {
+            "type": ["string", "number", "object", "array", "boolean", "null"]
+        },
     }
 
     if include_meta_data:
