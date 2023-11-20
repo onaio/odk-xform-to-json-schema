@@ -17,7 +17,11 @@ def get_xform_type_to_json_schema_type_lookup():
     # set(xform_q_name_to_q_type.values())
     xform_type_to_json_schema_type = {
         "string": "string",
-        "int": "integer",
+        # pyxform int type should ideally map to json schema integer type
+        # but some fields described as int type in pyxform
+        # have been observed to be of decimal type instead in submission data
+        # see issue here https://github.com/onaio/zebra/issues/7798
+        "int": "number",
         "decimal": "number",
         "time": "string",
         "date": "string",
