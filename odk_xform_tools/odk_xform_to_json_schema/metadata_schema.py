@@ -29,6 +29,6 @@ extra_fields = {"_id": "string", "formhub/uuid": "string"}
 
 def json_schema_from_metadata(metadata_types: dict) -> dict:
     """Generate a JSON schema from an ona data metadata dict."""
-    schema_properties = {k: {"type": v} for k, v in metadata_types.items()}
+    schema_properties = {k: {"type": ["null", v]} for k, v in metadata_types.items()}
 
     return {"properties": schema_properties}
