@@ -84,16 +84,16 @@ def get_schema_properties(
                         # see issue here https://github.com/onaio/zebra/issues/7798
                         "type": [
                             "null",
-                            *(
-                                ["string"]
-                                if (
-                                    lookup_type := xform_type_to_json_schema_type_lookup.get(
-                                        child["type"], "string"
-                                    )
-                                )
-                                != "string"
-                                else []
-                            ),
+                            # *(
+                            #     ["string"]
+                            #     if (
+                            #         lookup_type := xform_type_to_json_schema_type_lookup.get(
+                            #             child["type"], "string"
+                            #         )
+                            #     )
+                            #     != "string"
+                            #     else []
+                            # ),
                             # default to "number" type
                             # in case lookup type is of type integer
                             # but underlying data is not compatible
