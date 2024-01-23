@@ -109,7 +109,9 @@ def get_schema_properties(
                             #     == "integer"
                             #     else []
                             # ),
-                            lookup_type,
+                            xform_type_to_json_schema_type_lookup.get(
+                                child["type"], "string"
+                            ),
                         ]
                     }
                 }
