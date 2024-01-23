@@ -43,7 +43,7 @@ def json_schema_from_metadata(metadata_types: dict) -> dict:
                 # but underlying data is not compatible
                 # e.g found data "-1.0" in a column of type integer
                 # see issue here https://github.com/onaio/zebra/issues/7798
-                *(["number"] if v == "integer" else []),
+                # *(["number"] if v == "integer" else []),
                 v,
             ]
         }

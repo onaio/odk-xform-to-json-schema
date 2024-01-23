@@ -99,16 +99,16 @@ def get_schema_properties(
                             # but underlying data is not compatible
                             # e.g found data "-1.0" in a column of type integer
                             # see issue here https://github.com/onaio/zebra/issues/7798
-                            *(
-                                ["number"]
-                                if (
-                                    lookup_type := xform_type_to_json_schema_type_lookup.get(
-                                        child["type"], "string"
-                                    )
-                                )
-                                == "integer"
-                                else []
-                            ),
+                            # *(
+                            #     ["number"]
+                            #     if (
+                            #         lookup_type := xform_type_to_json_schema_type_lookup.get(
+                            #             child["type"], "string"
+                            #         )
+                            #     )
+                            #     == "integer"
+                            #     else []
+                            # ),
                             lookup_type,
                         ]
                     }
