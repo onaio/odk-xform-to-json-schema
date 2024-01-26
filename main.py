@@ -6,7 +6,7 @@ from odk_xform_tools import flatten_xform_select_choices, xform_to_json_schema
 
 def main():
     """
-    Run in the command line with:
+    Run in the terminal with:
     python main.py <function_name> <xform_file_path>
     e.g. python main.py xform_to_json_schema sample_files/xform_example_1.json
 
