@@ -3,6 +3,7 @@ from pyxform.aliases import control, select
 
 def flatten_select_dictionary(select_dict):
     field = select_dict["name"]
+    type = select_dict["type"]
     children = select_dict.get("children")
     result = []
 
@@ -12,6 +13,7 @@ def flatten_select_dictionary(select_dict):
             result.append(
                 {
                     "field": field,
+                    "type": type,
                     "value": item_set,
                     "language": "$external",
                     "label": "$external",
@@ -28,6 +30,7 @@ def flatten_select_dictionary(select_dict):
                     result.append(
                         {
                             "field": field,
+                            "type": type,
                             "value": value,
                             "language": language,
                             "label": label_value,
@@ -37,6 +40,7 @@ def flatten_select_dictionary(select_dict):
                 result.append(
                     {
                         "field": field,
+                        "type": type,
                         "value": value,
                         "language": "undefined",
                         "label": label,
