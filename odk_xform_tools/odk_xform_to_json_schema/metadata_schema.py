@@ -29,6 +29,25 @@ extra_fields = {"_id": "string", "formhub/uuid": "string"}
 
 def json_schema_from_metadata(metadata_types: dict) -> dict:
     """Generate a JSON schema from an ona data metadata dict."""
-    schema_properties = {k: {"type": v} for k, v in metadata_types.items()}
+    schema_properties = {
+        k: {
+            "type": [
+                # default to "string" then "null" types
+                # in case lookup type is not compatible
+                # e.g found a string "300%" instead of expected integer "300"
+                # see issue here https://github.com/onaio/zebra/issues/7798
+                "null",
+                *(["string"] if v != "string" else []),
+                # default to "number" type
+                # in case lookup type is of type integer
+                # but underlying data is not compatible
+                # e.g found data "-1.0" in a column of type integer
+                # see issue here https://github.com/onaio/zebra/issues/7798
+                *(["number"] if v == "integer" else []),
+                v,
+            ]
+        }
+        for k, v in metadata_types.items()
+    }
 
     return {"properties": schema_properties}

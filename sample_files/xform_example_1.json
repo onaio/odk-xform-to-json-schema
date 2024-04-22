@@ -1,0 +1,3426 @@
+{
+  "name": "data",
+  "type": "survey",
+  "style": "theme-grid",
+  "title": "Markets Monitoring Tool",
+  "choices": {
+    "yn": [
+      { "name": "1", "label": "Yes" },
+      { "name": "2", "label": "No" }
+    ],
+    "h2b": [
+      { "name": "1", "label": "Lower demand" },
+      { "name": "2", "label": "Higher transport cost" },
+      { "name": "3", "label": "Continuous price increases" },
+      {
+        "name": "4",
+        "label": "Difficulty and/or delays in daily price setting"
+      },
+      { "name": "5", "label": "Covid -19 Lockdown" },
+      { "name": "6", "label": "Less people coming  and process is slower" },
+      { "name": "7", "label": "Other" }
+    ],
+    "b_um": [
+      { "name": "1", "label": "Full loaf" },
+      { "name": "2", "label": "Half loaf" },
+      { "name": "3", "label": "Qaurter loaf" }
+    ],
+    "c_um": [
+      { "name": "1", "label": "100mls" },
+      { "name": "2", "label": "250mls" },
+      { "name": "3", "label": "350mls" },
+      { "name": "4", "label": "500mls" },
+      { "name": "5", "label": "750mls" },
+      { "name": "6", "label": "1 litre" },
+      { "name": "7", "label": "1.5 litres" },
+      { "name": "8", "label": "2 litres" },
+      { "name": "9", "label": "3 litres" },
+      { "name": "10", "label": "5 litres" },
+      { "name": "11", "label": "10 litres" },
+      { "name": "12", "label": "20 litres" }
+    ],
+    "f_um": [
+      { "name": "1", "label": "100 Grams" },
+      { "name": "2", "label": "500 Grams" },
+      { "name": "3", "label": "1 Kg" },
+      { "name": "4", "label": "2 Kgs" },
+      { "name": "5", "label": "5 Kgs" },
+      { "name": "6", "label": "10 Kgs" },
+      { "name": "7", "label": "20 Kgs" },
+      { "name": "8", "label": "25 Kgs" },
+      { "name": "9", "label": "50 Kgs" },
+      { "name": "10", "label": "90 Kgs" }
+    ],
+    "g_um": [
+      { "name": "1", "label": "Bundle" },
+      { "name": "2", "label": "Pieces" },
+      { "name": "3", "label": "Stems" },
+      { "name": "4", "label": "Head" }
+    ],
+    "t_um": [
+      { "name": "1", "label": "100 grams" },
+      { "name": "2", "label": "200 grams" },
+      { "name": "3", "label": "300 grams" },
+      { "name": "4", "label": "400 grams" },
+      { "name": "5", "label": "500 grams" },
+      { "name": "6", "label": "600 grams" },
+      { "name": "7", "label": "700 grams" },
+      { "name": "8", "label": "800 grams" },
+      { "name": "9", "label": "900 grams" },
+      { "name": "10", "label": "1 Kg" },
+      { "name": "11", "label": "1.5 kgs" },
+      { "name": "12", "label": "2 Kgs" }
+    ],
+    "ward": [
+      { "cf": "8", "cf2": "4", "cf3": "7", "name": "1", "label": "1" },
+      { "cf": "8", "cf2": "4", "cf3": "7", "name": "2", "label": "2" },
+      { "cf": "8", "cf2": "4", "cf3": "7", "name": "3", "label": "3" },
+      { "cf": "8", "cf2": "4", "cf3": "7", "name": "4", "label": "4" },
+      {
+        "cf": "5",
+        "cf2": "8",
+        "cf3": "5",
+        "cf4": "7",
+        "name": "5",
+        "label": "5"
+      },
+      { "cf": "8", "cf2": "4", "cf3": "7", "name": "6", "label": "6" },
+      { "cf": "1", "cf2": "1", "name": "8", "label": "8" },
+      { "cf": "6", "name": "9", "label": "9" },
+      { "cf": "6", "cf2": "10", "name": "13", "label": "13" },
+      { "cf": "10", "name": "16", "label": "16" },
+      { "cf": "10", "cf2": "5", "name": "15", "label": "15" },
+      { "cf": "9", "name": "17", "label": "17" },
+      { "cf": "4", "name": "18", "label": "18" },
+      { "cf": "4", "name": "19", "label": "19" },
+      { "cf": "4", "cf2": "10", "name": "20", "label": "20" },
+      { "cf": "10", "name": "21", "label": "21" },
+      { "cf": "4", "name": "22", "label": "22" },
+      { "cf": "4", "name": "23", "label": "23" },
+      {
+        "cf": "2",
+        "cf2": "2",
+        "cf3": "6",
+        "cf4": "4",
+        "cf5": "10",
+        "name": "24",
+        "label": "24"
+      },
+      {
+        "cf": "2",
+        "cf2": "2",
+        "cf3": "4",
+        "cf4": "10",
+        "name": "25",
+        "label": "25"
+      },
+      { "cf": "10", "name": "26", "label": "26" },
+      { "cf": "1", "cf2": "1", "name": "33", "label": "33" },
+      { "cf": "1", "cf2": "3", "name": "34", "label": "34" },
+      { "cf": "3", "cf2": "3", "name": "35", "label": "35" },
+      { "cf": "3", "cf2": "3", "name": "36", "label": "36" },
+      { "cf": "1", "cf2": "3", "name": "37", "label": "37" }
+    ],
+    "yndk": [
+      { "name": "1", "label": "Yes" },
+      { "name": "2", "label": "No" },
+      { "name": "3", "label": "Don't know" }
+    ],
+    "soap_um": [
+      { "name": "1", "label": "100gms" },
+      { "name": "2", "label": "200gms" },
+      { "name": "3", "label": "500gms" },
+      { "name": "4", "label": "1Kg" },
+      { "name": "5", "label": "1.5kgs" },
+      { "name": "6", "label": "2Kgs" },
+      { "name": "7", "label": "5kgs" },
+      { "name": "8", "label": "20kgs" }
+    ],
+    "district": [
+      { "cf": "1", "name": "1", "label": "Gutu" },
+      { "cf": "2", "name": "2", "label": "Highfields" },
+      { "cf": "2", "name": "3", "label": "Mufakose" },
+      { "cf": "2", "name": "4", "label": "Chitungwiza" },
+      { "cf": "3", "name": "5", "label": "Lupane" },
+      { "cf": "3", "name": "6", "label": "Binga" },
+      { "cf": "5", "name": "7", "label": "Bulawayo" },
+      { "cf": "4", "name": "8", "label": "Beitbridge" },
+      { "cf": "5", "name": "9", "label": "Khami" },
+      { "cf": "5", "name": "10", "label": "Mzilikazi" }
+    ],
+    "int_type": [
+      { "name": "1", "label": "Face to Face" },
+      { "name": "2", "label": "Remote (Phone call,Skype,  Whatsapp etc)" },
+      { "name": "3", "label": "Email" }
+    ],
+    "location": [{ "name": "1", "label": "Hwiru" }],
+    "maize_no": [
+      {
+        "name": "1",
+        "label": "Lack of maize grain availability in the market"
+      },
+      {
+        "name": "2",
+        "label": "Lack of demand due to availability at HH level"
+      },
+      { "name": "3", "label": "This market does not usually sell maize grain" },
+      { "name": "4", "label": "Other" }
+    ],
+    "mkt_type": [
+      { "name": "1", "label": "Wholesaler" },
+      { "name": "2", "label": "Large Supermarket eg OK" },
+      { "name": "3", "label": "Supermarket" },
+      { "name": "4", "label": "Grocery shop" },
+      { "name": "5", "label": "Kiosk (Tuck-shop)" },
+      { "name": "6", "label": "Open roadside" },
+      { "name": "7", "label": "Vegetable Markets" }
+    ],
+    "not_sell": [
+      { "name": "1", "label": "Lack of availability with supplier" },
+      {
+        "name": "2",
+        "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+      },
+      { "name": "3", "label": "Lack of demand" },
+      { "name": "4", "label": "Other" }
+    ],
+    "province": [
+      { "name": "1", "label": "Masvingo" },
+      { "name": "2", "label": "Harare" },
+      { "name": "3", "label": "Matabeleland North" },
+      { "name": "4", "label": "Matabeleland South" },
+      { "name": "5", "label": "Bulawayo" }
+    ],
+    "spads_um": [
+      { "name": "1", "label": "1's" },
+      { "name": "2", "label": "10's" },
+      { "name": "3", "label": "20's" },
+      { "name": "4", "label": "30's" },
+      { "name": "5", "label": "45's" },
+      { "name": "6", "label": "50's" }
+    ],
+    "buy_maize": [
+      { "name": "1", "label": "Local Formal Market Traders" },
+      { "name": "2", "label": "Local informal traders" },
+      { "name": "3", "label": "Mobile Traders" },
+      { "name": "4", "label": "GMB" }
+    ],
+    "food_items": [
+      { "cf": "0", "name": "0", "label": "None" },
+      { "cf": "1", "name": "1", "label": "Maize Grain" },
+      { "cf": "2", "name": "2", "label": "Maize Meal" },
+      { "cf": "3", "name": "3", "label": "Sorghum" },
+      { "cf": "4", "name": "4", "label": "Pearl Millet" },
+      { "cf": "5", "name": "5", "label": "Finger Millet" },
+      { "cf": "6", "name": "6", "label": "Rice" },
+      { "cf": "7", "name": "7", "label": "Sugar Beans" },
+      { "cf": "8", "name": "8", "label": "Cooking Oil" },
+      { "cf": "9", "name": "9", "label": "Fine Salt" },
+      { "cf": "10", "name": "10", "label": "Sugar" },
+      { "cf": "11", "name": "11", "label": "Kapenta" },
+      { "cf": "12", "name": "12", "label": "Flour" },
+      { "cf": "13", "name": "13", "label": "Bread" },
+      { "cf": "14", "name": "14", "label": "Potatoes" },
+      { "cf": "15", "name": "15", "label": "Green Leafy Vegetables" },
+      { "cf": "20", "name": "20", "label": "Tomatoes" },
+      { "cf": "21", "name": "21", "label": "Onions" },
+      { "cf": "16", "name": "16", "label": "Beef" },
+      { "cf": "17", "name": "17", "label": "Fish" },
+      { "cf": "18", "name": "18", "label": "Chicken" },
+      {
+        "cf": "19",
+        "name": "19",
+        "label": "Vitamin A rich fruits Mango, apricot, peach, paw-paw excluding citrus fruits)"
+      }
+    ],
+    "petjelly_um": [
+      { "name": "1", "label": "25mls" },
+      { "name": "2", "label": "50mls" },
+      { "name": "3", "label": "75mls" },
+      { "name": "4", "label": "100mls" },
+      { "name": "5", "label": "150mls" },
+      { "name": "6", "label": "200mls" }
+    ],
+    "reference_p": [
+      { "name": "1", "label": "1 to 15" },
+      { "name": "2", "label": "16 to 30/1" }
+    ],
+    "payment_mode": [
+      { "name": "1", "label": "USD Cash" },
+      { "name": "2", "label": "ZA Rand Cash" },
+      { "name": "3", "label": "Bond Notes" },
+      { "name": "4", "label": "Mobile Money" },
+      { "name": "5", "label": "Plastic Money" },
+      { "name": "9", "label": "Other" }
+    ],
+    "neighbourhood": [
+      {
+        "cf": "24",
+        "cf2": "2",
+        "name": "1",
+        "label": "Ardbenie Industrial Area"
+      },
+      {
+        "cf": "24",
+        "cf2": "2",
+        "name": "2",
+        "label": "Stones Area; New Police Camp"
+      },
+      { "cf": "24", "cf2": "2", "name": "3", "label": "Jerusalem" },
+      { "cf": "24", "cf2": "2", "name": "4", "label": "Egypt" },
+      { "cf": "24", "cf2": "2", "name": "5", "label": "Lusaka" },
+      { "cf": "24", "cf2": "2", "name": "6", "label": "Paradise" },
+      { "cf": "25", "cf2": "2", "name": "7", "label": "PWD Area" },
+      {
+        "cf": "25",
+        "cf2": "2",
+        "name": "8",
+        "label": "Old Highfields (Stands)"
+      },
+      { "cf": "25", "cf2": "2", "name": "9", "label": "Willowvale flats" },
+      { "cf": "25", "cf2": "2", "name": "10", "label": "Old Highfield (W)" },
+      { "cf": "25", "cf2": "2", "name": "11", "label": "New Canaan" },
+      { "cf": "25", "cf2": "2", "name": "12", "label": "Engeneering" },
+      { "cf": "25", "cf2": "2", "name": "13", "label": "Zororo" },
+      {
+        "cf": "25",
+        "cf2": "2",
+        "name": "14",
+        "label": "Western Triangle (Cherima)"
+      },
+      { "cf": "25", "cf2": "2", "name": "15", "label": "Government houses" },
+      { "cf": "33", "cf2": "1", "name": "17", "label": "Old Location" },
+      {
+        "cf": "33",
+        "cf2": "1",
+        "name": "18",
+        "label": "Mupandawana Extension"
+      },
+      { "cf": "33", "cf2": "1", "name": "19", "label": "Grace Mugabe" },
+      { "cf": "33", "cf2": "1", "name": "20", "label": "Infill" },
+      { "cf": "33", "cf2": "1", "name": "21", "label": "Red Bricks" },
+      { "cf": "33", "cf2": "1", "name": "22", "label": "Hillview" },
+      { "cf": "34", "cf2": "1", "name": "23", "label": "Hwiru" },
+      { "cf": "34", "cf2": "1", "name": "24", "label": "Makhakhi" },
+      { "cf": "34", "cf2": "1", "name": "25", "label": "Munhende" },
+      { "cf": "34", "cf2": "1", "name": "26", "label": "Gonvile" },
+      { "cf": "34", "cf2": "1", "name": "27", "label": "Chomful" },
+      { "cf": "34", "cf2": "1", "name": "28", "label": "Scomption" },
+      { "cf": "34", "cf2": "1", "name": "29", "label": "Gutu suburbs" },
+      { "cf": "37", "cf2": "1", "name": "30", "label": "Magwidi" },
+      { "cf": "37", "cf2": "1", "name": "31", "label": "Mharadze" },
+      { "cf": "8", "cf2": "1", "name": "32", "label": "Mukadziwasha" },
+      { "cf": "34", "cf2": "3", "name": "34", "label": "Boterekwa" },
+      { "cf": "34", "cf2": "3", "name": "35", "label": "Mizhi" },
+      { "cf": "34", "cf2": "3", "name": "36", "label": "Croughbroughway" },
+      { "cf": "35", "cf2": "3", "name": "37", "label": "Magandanga" },
+      { "cf": "36", "cf2": "3", "name": "38", "label": "Cherima" },
+      { "cf": "36", "cf2": "3", "name": "39", "label": "Old bricks" },
+      { "cf": "36", "cf2": "3", "name": "40", "label": "Magetsi" },
+      { "cf": "37", "cf2": "3", "name": "41", "label": "Phase 4" },
+      { "cf": "37", "cf2": "3", "name": "42", "label": "Mazai" },
+      { "cf": "37", "cf2": "3", "name": "43", "label": "New Marimba" },
+      { "cf": "37", "cf2": "3", "name": "44", "label": "Old Marimba" },
+      { "cf": "1", "cf2": "4", "name": "45", "label": "CA" },
+      { "cf": "3", "cf2": "4", "name": "46", "label": "Mangoromera" },
+      { "cf": "3", "cf2": "4", "name": "47", "label": "Huruyadzo" },
+      { "cf": "4", "cf2": "4", "name": "48", "label": "Chigovanyika" },
+      { "cf": "18", "cf2": "4", "name": "49", "label": "Zanoremba" },
+      { "cf": "18", "cf2": "4", "name": "50", "label": "Old L" },
+      { "cf": "20", "cf2": "4", "name": "51", "label": "Area D" },
+      { "cf": "20", "cf2": "4", "name": "52", "label": "Unit E" },
+      { "cf": "20", "cf2": "4", "name": "53", "label": "Unit H" },
+      { "cf": "25", "cf2": "4", "name": "54", "label": "Unit G Hostels" },
+      { "cf": "5", "cf2": "5", "name": "55", "label": "King Lobengula" },
+      { "cf": "5", "cf2": "5", "name": "56", "label": "Old Stands-Kusile" },
+      { "cf": "5", "cf2": "5", "name": "57", "label": "Mtshibini New Stands" },
+      { "cf": "5", "cf2": "5", "name": "58", "label": "DA's Complex" },
+      { "cf": "5", "cf2": "5", "name": "59", "label": "Roads Compound" },
+      { "cf": "5", "cf2": "5", "name": "60", "label": "Low Density Stands" },
+      { "cf": "2", "cf2": "4", "name": "61", "label": "Mapositori" },
+      { "cf": "23", "cf2": "4", "name": "62", "label": "Unit N" },
+      { "cf": "23", "cf2": "4", "name": "63", "label": "Unit P" },
+      { "cf": "24", "cf2": "4", "name": "64", "label": "Unit M" },
+      { "cf": "22", "cf2": "4", "name": "65", "label": "Unit O" },
+      { "cf": "19", "cf2": "4", "name": "66", "label": "Unit F" },
+      { "cf": "6", "cf2": "4", "name": "67", "label": "Zengeza" },
+      { "cf": "17", "cf2": "9", "name": "68", "label": "Peri-urban-Methodist" },
+      { "cf": "17", "cf2": "9", "name": "69", "label": "Robert Sinyoka" },
+      { "cf": "17", "cf2": "9", "name": "70", "label": "St Peters" },
+      { "cf": "17", "cf2": "9", "name": "71", "label": "Mazwi" },
+      { "cf": "13", "cf2": "10", "name": "72", "label": "Emabuthweni" },
+      { "cf": "13", "cf2": "10", "name": "73", "label": "Iminyela" },
+      { "cf": "13", "cf2": "10", "name": "74", "label": "Pelandaba" },
+      { "cf": "21", "cf2": "10", "name": "75", "label": "Sizinda" },
+      { "cf": "21", "cf2": "10", "name": "76", "label": "Tshabalala" },
+      { "cf": "15", "cf2": "10", "name": "77", "label": "Luveve" },
+      { "cf": "24", "cf2": "10", "name": "78", "label": "Nketa 6" },
+      { "cf": "24", "cf2": "10", "name": "79", "label": "Nketa 8" },
+      { "cf": "25", "cf2": "10", "name": "80", "label": "Nketa 7" },
+      { "cf": "25", "cf2": "10", "name": "81", "label": "Nketa 9" },
+      {
+        "cf": "20",
+        "cf2": "10",
+        "name": "82",
+        "label": "Nkulumane (sekusile)"
+      },
+      { "cf": "16", "cf2": "10", "name": "83", "label": "Gwabalanda" },
+      { "cf": "26", "cf2": "10", "name": "84", "label": "Emganwini" },
+      { "cf": "4", "cf2": "8", "name": "85", "label": "Rank" },
+      { "cf": "4", "cf2": "8", "name": "86", "label": "Doti" },
+      { "cf": "4", "cf2": "8", "name": "87", "label": "Mphelandaunye" },
+      { "cf": "6", "cf2": "8", "name": "88", "label": "Garikai" },
+      { "cf": "6", "cf2": "8", "name": "89", "label": "Mbedzi" },
+      { "cf": "6", "cf2": "8", "name": "90", "label": "Kumasoja" },
+      { "cf": "6", "cf2": "8", "name": "91", "label": "Mangava" },
+      { "cf": "6", "cf2": "8", "name": "92", "label": "Manyengavana" },
+      { "cf": "5", "cf2": "8", "name": "93", "label": "Mashakadha" },
+      { "cf": "5", "cf2": "8", "name": "94", "label": "Busy Curve" },
+      { "cf": "5", "cf2": "8", "name": "95", "label": "Shule Shule" },
+      { "cf": "5", "cf2": "8", "name": "96", "label": "Sdps" },
+      { "cf": "3", "cf2": "8", "name": "97", "label": "O Jays" },
+      { "cf": "3", "cf2": "8", "name": "98", "label": "Industries" },
+      { "cf": "2", "cf2": "8", "name": "99", "label": "Baobab" },
+      { "cf": "1", "cf2": "8", "name": "100", "label": "Railway" },
+      { "cf": "1", "cf2": "8", "name": "101", "label": "Acacia Industries" },
+      { "cf": "24", "cf2": "6", "name": "102", "label": "Garikai" },
+      { "cf": "24", "cf2": "6", "name": "103", "label": "Mosoja" },
+      { "cf": "24", "cf2": "6", "name": "104", "label": "Fishing Camps" },
+      { "cf": "24", "cf2": "6", "name": "105", "label": "Govera" },
+      { "cf": "24", "cf2": "6", "name": "106", "label": "Secondary" },
+      { "cf": "24", "cf2": "6", "name": "107", "label": "Low Density" },
+      { "cf": "24", "cf2": "6", "name": "108", "label": "Rest Camp" },
+      { "cf": "24", "cf2": "6", "name": "109", "label": "Low Density" },
+      { "cf": "24", "cf2": "6", "name": "110", "label": "Plots" },
+      { "cf": "24", "cf2": "6", "name": "111", "label": "Training Centre" },
+      { "cf": "24", "cf2": "6", "name": "112", "label": "Plots" },
+      { "cf": "24", "cf2": "6", "name": "113", "label": "DDF" },
+      { "cf": "24", "cf2": "6", "name": "114", "label": "Hospital" },
+      { "cf": "other", "cf2": "other", "name": "other", "label": "Other" }
+    ],
+    "toothpaste_um": [
+      { "name": "1", "label": "50ml" },
+      { "name": "2", "label": "100ml" },
+      { "name": "3", "label": "150ml" },
+      { "name": "4", "label": "200ml" },
+      { "name": "5", "label": "250ml" }
+    ],
+    "non_food_items": [
+      { "cf": "0", "name": "0", "label": "None" },
+      { "cf": "1", "name": "1", "label": "Laundry Soap" },
+      { "cf": "2", "name": "2", "label": "Bathing Soap" },
+      { "cf": "3", "name": "3", "label": "Toothpaste" },
+      { "cf": "4", "name": "4", "label": "Petroleum Jelly" },
+      { "cf": "5", "name": "5", "label": "Sanitary Pads" },
+      { "cf": "6", "name": "6", "label": "Hand sanitiser" },
+      { "cf": "7", "name": "7", "label": "Face mask" }
+    ]
+  },
+  "version": "20220922",
+  "children": [
+    { "name": "start", "type": "start" },
+    { "name": "end", "type": "end" },
+    { "name": "today", "type": "today" },
+    {
+      "bind": { "required": "yes" },
+      "name": "int_name",
+      "type": "text",
+      "label": "Name of Interviewer"
+    },
+    {
+      "bind": {
+        "required": "yes",
+        "constraint": ".=${today}",
+        "jr:constraintMsg": "Interview date cannot be in the past or the future"
+      },
+      "name": "int_date",
+      "type": "date",
+      "label": "Date of interview"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "reference_period",
+      "type": "select one",
+      "label": "Reference Period (Date)",
+      "children": [
+        { "name": "1", "label": "1 to 15" },
+        { "name": "2", "label": "16 to 30/1" }
+      ],
+      "list_name": "reference_p"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "type_interview",
+      "type": "select one",
+      "label": "Type of Interview",
+      "children": [
+        { "name": "1", "label": "Face to Face" },
+        { "name": "2", "label": "Remote (Phone call,Skype,  Whatsapp etc)" },
+        { "name": "3", "label": "Email" }
+      ],
+      "list_name": "int_type"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "province",
+      "type": "select one",
+      "label": "Province",
+      "children": [
+        { "name": "1", "label": "Masvingo" },
+        { "name": "2", "label": "Harare" },
+        { "name": "3", "label": "Matabeleland North" },
+        { "name": "4", "label": "Matabeleland South" },
+        { "name": "5", "label": "Bulawayo" }
+      ],
+      "list_name": "province"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "district",
+      "type": "select one",
+      "label": "District",
+      "itemset": "district",
+      "children": [
+        { "name": "1", "label": "Gutu" },
+        { "name": "2", "label": "Highfields" },
+        { "name": "3", "label": "Mufakose" },
+        { "name": "4", "label": "Chitungwiza" },
+        { "name": "5", "label": "Lupane" },
+        { "name": "6", "label": "Binga" },
+        { "name": "7", "label": "Bulawayo" },
+        { "name": "8", "label": "Beitbridge" },
+        { "name": "9", "label": "Khami" },
+        { "name": "10", "label": "Mzilikazi" }
+      ],
+      "list_name": "district",
+      "choice_filter": "cf=${province}"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "ward",
+      "type": "select one",
+      "label": "Ward",
+      "itemset": "ward",
+      "children": [
+        { "name": "1", "label": "1" },
+        { "name": "2", "label": "2" },
+        { "name": "3", "label": "3" },
+        { "name": "4", "label": "4" },
+        { "name": "5", "label": "5" },
+        { "name": "6", "label": "6" },
+        { "name": "8", "label": "8" },
+        { "name": "9", "label": "9" },
+        { "name": "13", "label": "13" },
+        { "name": "16", "label": "16" },
+        { "name": "15", "label": "15" },
+        { "name": "17", "label": "17" },
+        { "name": "18", "label": "18" },
+        { "name": "19", "label": "19" },
+        { "name": "20", "label": "20" },
+        { "name": "21", "label": "21" },
+        { "name": "22", "label": "22" },
+        { "name": "23", "label": "23" },
+        { "name": "24", "label": "24" },
+        { "name": "25", "label": "25" },
+        { "name": "26", "label": "26" },
+        { "name": "33", "label": "33" },
+        { "name": "34", "label": "34" },
+        { "name": "35", "label": "35" },
+        { "name": "36", "label": "36" },
+        { "name": "37", "label": "37" }
+      ],
+      "list_name": "ward",
+      "choice_filter": "cf=${district} or cf2=${district} or cf3=${district} or cf4=${district} or cf5=${district}"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "neighbourhood",
+      "type": "select one",
+      "label": "Neighbourhood / Suburb / Area",
+      "itemset": "neighbourhood",
+      "children": [
+        { "name": "1", "label": "Ardbenie Industrial Area" },
+        { "name": "2", "label": "Stones Area; New Police Camp" },
+        { "name": "3", "label": "Jerusalem" },
+        { "name": "4", "label": "Egypt" },
+        { "name": "5", "label": "Lusaka" },
+        { "name": "6", "label": "Paradise" },
+        { "name": "7", "label": "PWD Area" },
+        { "name": "8", "label": "Old Highfields (Stands)" },
+        { "name": "9", "label": "Willowvale flats" },
+        { "name": "10", "label": "Old Highfield (W)" },
+        { "name": "11", "label": "New Canaan" },
+        { "name": "12", "label": "Engeneering" },
+        { "name": "13", "label": "Zororo" },
+        { "name": "14", "label": "Western Triangle (Cherima)" },
+        { "name": "15", "label": "Government houses" },
+        { "name": "17", "label": "Old Location" },
+        { "name": "18", "label": "Mupandawana Extension" },
+        { "name": "19", "label": "Grace Mugabe" },
+        { "name": "20", "label": "Infill" },
+        { "name": "21", "label": "Red Bricks" },
+        { "name": "22", "label": "Hillview" },
+        { "name": "23", "label": "Hwiru" },
+        { "name": "24", "label": "Makhakhi" },
+        { "name": "25", "label": "Munhende" },
+        { "name": "26", "label": "Gonvile" },
+        { "name": "27", "label": "Chomful" },
+        { "name": "28", "label": "Scomption" },
+        { "name": "29", "label": "Gutu suburbs" },
+        { "name": "30", "label": "Magwidi" },
+        { "name": "31", "label": "Mharadze" },
+        { "name": "32", "label": "Mukadziwasha" },
+        { "name": "34", "label": "Boterekwa" },
+        { "name": "35", "label": "Mizhi" },
+        { "name": "36", "label": "Croughbroughway" },
+        { "name": "37", "label": "Magandanga" },
+        { "name": "38", "label": "Cherima" },
+        { "name": "39", "label": "Old bricks" },
+        { "name": "40", "label": "Magetsi" },
+        { "name": "41", "label": "Phase 4" },
+        { "name": "42", "label": "Mazai" },
+        { "name": "43", "label": "New Marimba" },
+        { "name": "44", "label": "Old Marimba" },
+        { "name": "45", "label": "CA" },
+        { "name": "46", "label": "Mangoromera" },
+        { "name": "47", "label": "Huruyadzo" },
+        { "name": "48", "label": "Chigovanyika" },
+        { "name": "49", "label": "Zanoremba" },
+        { "name": "50", "label": "Old L" },
+        { "name": "51", "label": "Area D" },
+        { "name": "52", "label": "Unit E" },
+        { "name": "53", "label": "Unit H" },
+        { "name": "54", "label": "Unit G Hostels" },
+        { "name": "55", "label": "King Lobengula" },
+        { "name": "56", "label": "Old Stands-Kusile" },
+        { "name": "57", "label": "Mtshibini New Stands" },
+        { "name": "58", "label": "DA's Complex" },
+        { "name": "59", "label": "Roads Compound" },
+        { "name": "60", "label": "Low Density Stands" },
+        { "name": "61", "label": "Mapositori" },
+        { "name": "62", "label": "Unit N" },
+        { "name": "63", "label": "Unit P" },
+        { "name": "64", "label": "Unit M" },
+        { "name": "65", "label": "Unit O" },
+        { "name": "66", "label": "Unit F" },
+        { "name": "67", "label": "Zengeza" },
+        { "name": "68", "label": "Peri-urban-Methodist" },
+        { "name": "69", "label": "Robert Sinyoka" },
+        { "name": "70", "label": "St Peters" },
+        { "name": "71", "label": "Mazwi" },
+        { "name": "72", "label": "Emabuthweni" },
+        { "name": "73", "label": "Iminyela" },
+        { "name": "74", "label": "Pelandaba" },
+        { "name": "75", "label": "Sizinda" },
+        { "name": "76", "label": "Tshabalala" },
+        { "name": "77", "label": "Luveve" },
+        { "name": "78", "label": "Nketa 6" },
+        { "name": "79", "label": "Nketa 8" },
+        { "name": "80", "label": "Nketa 7" },
+        { "name": "81", "label": "Nketa 9" },
+        { "name": "82", "label": "Nkulumane (sekusile)" },
+        { "name": "83", "label": "Gwabalanda" },
+        { "name": "84", "label": "Emganwini" },
+        { "name": "85", "label": "Rank" },
+        { "name": "86", "label": "Doti" },
+        { "name": "87", "label": "Mphelandaunye" },
+        { "name": "88", "label": "Garikai" },
+        { "name": "89", "label": "Mbedzi" },
+        { "name": "90", "label": "Kumasoja" },
+        { "name": "91", "label": "Mangava" },
+        { "name": "92", "label": "Manyengavana" },
+        { "name": "93", "label": "Mashakadha" },
+        { "name": "94", "label": "Busy Curve" },
+        { "name": "95", "label": "Shule Shule" },
+        { "name": "96", "label": "Sdps" },
+        { "name": "97", "label": "O Jays" },
+        { "name": "98", "label": "Industries" },
+        { "name": "99", "label": "Baobab" },
+        { "name": "100", "label": "Railway" },
+        { "name": "101", "label": "Acacia Industries" },
+        { "name": "102", "label": "Garikai" },
+        { "name": "103", "label": "Mosoja" },
+        { "name": "104", "label": "Fishing Camps" },
+        { "name": "105", "label": "Govera" },
+        { "name": "106", "label": "Secondary" },
+        { "name": "107", "label": "Low Density" },
+        { "name": "108", "label": "Rest Camp" },
+        { "name": "109", "label": "Low Density" },
+        { "name": "110", "label": "Plots" },
+        { "name": "111", "label": "Training Centre" },
+        { "name": "112", "label": "Plots" },
+        { "name": "113", "label": "DDF" },
+        { "name": "114", "label": "Hospital" },
+        { "name": "other", "label": "Other" }
+      ],
+      "list_name": "neighbourhood",
+      "choice_filter": "(cf=${ward} and cf2=${district}) or cf='other'"
+    },
+    {
+      "bind": { "relevant": "${neighbourhood}='16'", "required": "yes" },
+      "name": "neighbourhood_other",
+      "type": "text",
+      "label": "Specify other neighbourhood"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "market_name",
+      "type": "text",
+      "label": "Name of Market"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "type_market",
+      "type": "select one",
+      "label": "Type of Market",
+      "children": [
+        { "name": "1", "label": "Wholesaler" },
+        { "name": "2", "label": "Large Supermarket eg OK" },
+        { "name": "3", "label": "Supermarket" },
+        { "name": "4", "label": "Grocery shop" },
+        { "name": "5", "label": "Kiosk (Tuck-shop)" },
+        { "name": "6", "label": "Open roadside" },
+        { "name": "7", "label": "Vegetable Markets" }
+      ],
+      "list_name": "mkt_type"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "ongoing_cash_intervention",
+      "type": "select one",
+      "label": "Is there an ongoing cash intervention activity nearby?",
+      "children": [
+        { "name": "1", "label": "Yes" },
+        { "name": "2", "label": "No" },
+        { "name": "3", "label": "Don't know" }
+      ],
+      "list_name": "yndk"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "ongoing_food_distribution",
+      "type": "select one",
+      "label": "Is there an ongoing food distribution activity nearby",
+      "children": [
+        { "name": "1", "label": "Yes" },
+        { "name": "2", "label": "No" },
+        { "name": "3", "label": "Don't know" }
+      ],
+      "list_name": "yndk"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "store_trader_name",
+      "type": "text",
+      "label": "Name of store (or trader if informal trader)"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "payment_modality_accpt",
+      "type": "select all that apply",
+      "label": "Which payment modality is accepted?",
+      "children": [
+        { "name": "1", "label": "USD Cash" },
+        { "name": "2", "label": "ZA Rand Cash" },
+        { "name": "3", "label": "Bond Notes" },
+        { "name": "4", "label": "Mobile Money" },
+        { "name": "5", "label": "Plastic Money" },
+        { "name": "9", "label": "Other" }
+      ],
+      "list_name": "payment_mode"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${payment_modality_accpt},'9')",
+        "required": "yes"
+      },
+      "name": "payment_modality_accpt_other",
+      "type": "text",
+      "label": "Other payment modality accepted"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "come_buy_maize_grain",
+      "type": "select one",
+      "label": "Do people come to this market to buy maize grain now?",
+      "children": [
+        { "name": "1", "label": "Yes" },
+        { "name": "2", "label": "No" }
+      ],
+      "list_name": "yn"
+    },
+    {
+      "bind": { "relevant": "${come_buy_maize_grain}='1'", "required": "yes" },
+      "name": "come_buy_maize_grain_whom",
+      "type": "select all that apply",
+      "label": "From whom are people buying maize grain?",
+      "children": [
+        { "name": "1", "label": "Local Formal Market Traders" },
+        { "name": "2", "label": "Local informal traders" },
+        { "name": "3", "label": "Mobile Traders" },
+        { "name": "4", "label": "GMB" }
+      ],
+      "list_name": "buy_maize"
+    },
+    {
+      "bind": { "relevant": "${come_buy_maize_grain}='2'", "required": "yes" },
+      "name": "people_dont_buy_maize",
+      "type": "select all that apply",
+      "label": "Why are people not buying maize from this market now?",
+      "children": [
+        {
+          "name": "1",
+          "label": "Lack of maize grain availability in the market"
+        },
+        {
+          "name": "2",
+          "label": "Lack of demand due to availability at HH level"
+        },
+        {
+          "name": "3",
+          "label": "This market does not usually sell maize grain"
+        },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "maize_no"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${people_dont_buy_maize},'4')",
+        "required": "yes"
+      },
+      "name": "people_dont_buy_maize_other",
+      "type": "text",
+      "label": "Specify other reason people not buying maize"
+    },
+    {
+      "bind": {
+        "required": "yes",
+        "constraint": "not(selected(.,'0') and count-selected(.)>1)",
+        "jr:constraintMsg": "None cannot be selected with any other option"
+      },
+      "name": "food_items_trade",
+      "type": "select all that apply",
+      "label": "Please select all food items you typically trade",
+      "children": [
+        { "name": "0", "label": "None" },
+        { "name": "1", "label": "Maize Grain" },
+        { "name": "2", "label": "Maize Meal" },
+        { "name": "3", "label": "Sorghum" },
+        { "name": "4", "label": "Pearl Millet" },
+        { "name": "5", "label": "Finger Millet" },
+        { "name": "6", "label": "Rice" },
+        { "name": "7", "label": "Sugar Beans" },
+        { "name": "8", "label": "Cooking Oil" },
+        { "name": "9", "label": "Fine Salt" },
+        { "name": "10", "label": "Sugar" },
+        { "name": "11", "label": "Kapenta" },
+        { "name": "12", "label": "Flour" },
+        { "name": "13", "label": "Bread" },
+        { "name": "14", "label": "Potatoes" },
+        { "name": "15", "label": "Green Leafy Vegetables" },
+        { "name": "20", "label": "Tomatoes" },
+        { "name": "21", "label": "Onions" },
+        { "name": "16", "label": "Beef" },
+        { "name": "17", "label": "Fish" },
+        { "name": "18", "label": "Chicken" },
+        {
+          "name": "19",
+          "label": "Vitamin A rich fruits Mango, apricot, peach, paw-paw excluding citrus fruits)"
+        }
+      ],
+      "list_name": "food_items"
+    },
+    {
+      "bind": {
+        "required": "yes",
+        "constraint": "not(selected(.,'0') and count-selected(.)>1)",
+        "jr:constraintMsg": "None cannot be selected with any other option"
+      },
+      "name": "non_food_items_trade",
+      "type": "select all that apply",
+      "label": "Please select all non-food items you typically trade",
+      "children": [
+        { "name": "0", "label": "None" },
+        { "name": "1", "label": "Laundry Soap" },
+        { "name": "2", "label": "Bathing Soap" },
+        { "name": "3", "label": "Toothpaste" },
+        { "name": "4", "label": "Petroleum Jelly" },
+        { "name": "5", "label": "Sanitary Pads" },
+        { "name": "6", "label": "Hand sanitiser" },
+        { "name": "7", "label": "Face mask" }
+      ],
+      "list_name": "non_food_items"
+    },
+    {
+      "bind": {
+        "relevant": "count-selected(${food_items_trade})>0 and not(selected(${food_items_trade},'0'))",
+        "required": "yes",
+        "constraint": "not(selected(.,'0') and count-selected(.)>1)",
+        "jr:constraintMsg": "None cannot be selected with any other option"
+      },
+      "name": "food_items_sold",
+      "type": "select all that apply",
+      "label": "Please select all food items you sold this past week",
+      "itemset": "food_items",
+      "children": [
+        { "name": "0", "label": "None" },
+        { "name": "1", "label": "Maize Grain" },
+        { "name": "2", "label": "Maize Meal" },
+        { "name": "3", "label": "Sorghum" },
+        { "name": "4", "label": "Pearl Millet" },
+        { "name": "5", "label": "Finger Millet" },
+        { "name": "6", "label": "Rice" },
+        { "name": "7", "label": "Sugar Beans" },
+        { "name": "8", "label": "Cooking Oil" },
+        { "name": "9", "label": "Fine Salt" },
+        { "name": "10", "label": "Sugar" },
+        { "name": "11", "label": "Kapenta" },
+        { "name": "12", "label": "Flour" },
+        { "name": "13", "label": "Bread" },
+        { "name": "14", "label": "Potatoes" },
+        { "name": "15", "label": "Green Leafy Vegetables" },
+        { "name": "20", "label": "Tomatoes" },
+        { "name": "21", "label": "Onions" },
+        { "name": "16", "label": "Beef" },
+        { "name": "17", "label": "Fish" },
+        { "name": "18", "label": "Chicken" },
+        {
+          "name": "19",
+          "label": "Vitamin A rich fruits Mango, apricot, peach, paw-paw excluding citrus fruits)"
+        }
+      ],
+      "list_name": "food_items",
+      "choice_filter": "selected(${food_items_trade},cf) or cf='0'"
+    },
+    {
+      "bind": {
+        "relevant": "count-selected(${non_food_items_trade})>0 and not(selected(${non_food_items_trade},'0'))",
+        "required": "yes",
+        "constraint": "not(selected(.,'0') and count-selected(.)>1)",
+        "jr:constraintMsg": "None cannot be selected with any other option"
+      },
+      "name": "non_food_items_sold",
+      "type": "select all that apply",
+      "label": "Please select all non-food items you sold this past week",
+      "itemset": "non_food_items",
+      "children": [
+        { "name": "0", "label": "None" },
+        { "name": "1", "label": "Laundry Soap" },
+        { "name": "2", "label": "Bathing Soap" },
+        { "name": "3", "label": "Toothpaste" },
+        { "name": "4", "label": "Petroleum Jelly" },
+        { "name": "5", "label": "Sanitary Pads" },
+        { "name": "6", "label": "Hand sanitiser" },
+        { "name": "7", "label": "Face mask" }
+      ],
+      "list_name": "non_food_items",
+      "choice_filter": "selected(${non_food_items_trade},cf) or cf = '0'"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'1')" },
+      "name": "maize_grain",
+      "type": "group",
+      "label": "Maize Grain",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "maize_grain_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Maize Grain normally sold",
+          "children": [
+            { "name": "1", "label": "100 Grams" },
+            { "name": "2", "label": "500 Grams" },
+            { "name": "3", "label": "1 Kg" },
+            { "name": "4", "label": "2 Kgs" },
+            { "name": "5", "label": "5 Kgs" },
+            { "name": "6", "label": "10 Kgs" },
+            { "name": "7", "label": "20 Kgs" },
+            { "name": "8", "label": "25 Kgs" },
+            { "name": "9", "label": "50 Kgs" },
+            { "name": "10", "label": "90 Kgs" }
+          ],
+          "list_name": "f_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${maize_grain_unit_measure},'${maize_grain_unit_measure}')"
+          },
+          "name": "maize_grain_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "maize_grain_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Maize Grain for US$ Cash* per ${maize_grain_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "maize_grain_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Maize Grain in ZA Rands Cash* per ${maize_grain_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "maize_grain_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price *Maize Grain for Bond Notes* per ${maize_grain_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "maize_grain_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price *Maize Grain for Mobile Money* per ${maize_grain_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "maize_grain_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price *Maize Grain for Plastic Money/ Swipe* per ${maize_grain_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "maize_grain_fortification_variety_avail",
+      "type": "select one",
+      "label": "Maize grain fortification variety available",
+      "children": [
+        { "name": "1", "label": "Yes" },
+        { "name": "2", "label": "No" }
+      ],
+      "list_name": "yn"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "maize_grain_avail_gmb_points",
+      "type": "select one",
+      "label": "Is maize grain available at GMB sales point?",
+      "children": [
+        { "name": "1", "label": "Yes" },
+        { "name": "2", "label": "No" }
+      ],
+      "list_name": "yn"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'2')" },
+      "name": "maize_meal",
+      "type": "group",
+      "label": "Maize Meal",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "maize_meal_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Unrefined Maize Meal normally sold",
+          "children": [
+            { "name": "1", "label": "100 Grams" },
+            { "name": "2", "label": "500 Grams" },
+            { "name": "3", "label": "1 Kg" },
+            { "name": "4", "label": "2 Kgs" },
+            { "name": "5", "label": "5 Kgs" },
+            { "name": "6", "label": "10 Kgs" },
+            { "name": "7", "label": "20 Kgs" },
+            { "name": "8", "label": "25 Kgs" },
+            { "name": "9", "label": "50 Kgs" },
+            { "name": "10", "label": "90 Kgs" }
+          ],
+          "list_name": "f_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${maize_meal_unit_measure},'${maize_meal_unit_measure}')"
+          },
+          "name": "maize_meal_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "maize_meal_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Maize Meal for US$ Cash* per ${maize_meal_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "maize_meal_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Maize Meal in ZA Rands Cash* per ${maize_meal_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "maize_meal_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Maize Meal for Bond Notes* per ${maize_meal_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "maize_meal_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Maize Meal for Mobile Money* per ${maize_meal_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "maize_meal_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Maize Meal for Plastic Money/ Swipe* per ${maize_meal_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "maize_meal_fortification_variety_avail",
+      "type": "select one",
+      "label": "Maize meal fortification variety available",
+      "children": [
+        { "name": "1", "label": "Yes" },
+        { "name": "2", "label": "No" }
+      ],
+      "list_name": "yn"
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'2'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_maize_meal",
+      "type": "select all that apply",
+      "label": "Why did you not sell maize meal this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_maize_meal},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_maize_meal_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell maize meal"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "worry_not_enough_maize_grain_meal",
+      "type": "select one",
+      "label": "Over the past week, were you ever worried that you would not be able to find enough maize grain or maize meal because of lack of supply?",
+      "children": [
+        { "name": "1", "label": "Yes" },
+        { "name": "2", "label": "No" }
+      ],
+      "list_name": "yn"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "restock_maize_grain_meal_further_away",
+      "type": "select one",
+      "label": "Last time you went to restock, did you have to travel further out than your usual zone to find adequate supplies of maize grain or maize meal?",
+      "children": [
+        { "name": "1", "label": "Yes" },
+        { "name": "2", "label": "No" }
+      ],
+      "list_name": "yn"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "restock_maize_grain_meal_unable_find_type",
+      "type": "select one",
+      "label": "Last time you went to restock, were you unable to find the type or brand of maize meal or the quality of maize grain that you were looking for because of lack of supply?",
+      "children": [
+        { "name": "1", "label": "Yes" },
+        { "name": "2", "label": "No" }
+      ],
+      "list_name": "yn"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "restock_maize_grain_meal_unable_find_vol",
+      "type": "select one",
+      "label": "Last time you went to restock, were you ever unable to find the volume of maize grain or maize meal that you wanted to source because of lack of supply?",
+      "children": [
+        { "name": "1", "label": "Yes" },
+        { "name": "2", "label": "No" }
+      ],
+      "list_name": "yn"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "maize_grain_meal_fail_meet_demand",
+      "type": "select one",
+      "label": "Over the past week, did you ever fail to meet customer demand for maize meal/ maize grain because of lack of supply?",
+      "children": [
+        { "name": "1", "label": "Yes" },
+        { "name": "2", "label": "No" }
+      ],
+      "list_name": "yn"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "maize_grain_meal_out_stock",
+      "type": "select one",
+      "label": "Over the past week was there a time when your shop ran out of stock for maize meal/ maize grain because of lack of supply?",
+      "children": [
+        { "name": "1", "label": "Yes" },
+        { "name": "2", "label": "No" }
+      ],
+      "list_name": "yn"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'3')" },
+      "name": "sorghum",
+      "type": "group",
+      "label": "Sorghum",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "sorghum_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Sorghum normally sold",
+          "children": [
+            { "name": "1", "label": "100 Grams" },
+            { "name": "2", "label": "500 Grams" },
+            { "name": "3", "label": "1 Kg" },
+            { "name": "4", "label": "2 Kgs" },
+            { "name": "5", "label": "5 Kgs" },
+            { "name": "6", "label": "10 Kgs" },
+            { "name": "7", "label": "20 Kgs" },
+            { "name": "8", "label": "25 Kgs" },
+            { "name": "9", "label": "50 Kgs" },
+            { "name": "10", "label": "90 Kgs" }
+          ],
+          "list_name": "f_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${sorghum_unit_measure},'${sorghum_unit_measure}')"
+          },
+          "name": "sorghum_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sorghum_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sorghum for US$ Cash* per ${sorghum_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sorghum_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sorghum in ZA Rands Cash* per ${sorghum_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sorghum_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sorghum for Bond Notes* per ${sorghum_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sorghum_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sorghum for Mobile Money* per ${sorghum_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sorghum_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sorghum for Plastic Money/ Swipe* per ${sorghum_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'3'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_sorghum",
+      "type": "select all that apply",
+      "label": "Why did you not sell Sorghum this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_sorghum},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_sorghum_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Sorghum"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'4')" },
+      "name": "pearl_millet",
+      "type": "group",
+      "label": "Pearl Millet",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "pearl_millet_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Pearl Millet normally sold",
+          "children": [
+            { "name": "1", "label": "100 Grams" },
+            { "name": "2", "label": "500 Grams" },
+            { "name": "3", "label": "1 Kg" },
+            { "name": "4", "label": "2 Kgs" },
+            { "name": "5", "label": "5 Kgs" },
+            { "name": "6", "label": "10 Kgs" },
+            { "name": "7", "label": "20 Kgs" },
+            { "name": "8", "label": "25 Kgs" },
+            { "name": "9", "label": "50 Kgs" },
+            { "name": "10", "label": "90 Kgs" }
+          ],
+          "list_name": "f_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${pearl_millet_unit_measure},'${pearl_millet_unit_measure}')"
+          },
+          "name": "pearl_millet_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "pearl_millet_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Pearl Millet for US$ Cash* per ${pearl_millet_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "pearl_millet_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Pearl Millet in ZA Rands Cash* per ${pearl_millet_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "pearl_millet_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Pearl Millet for Bond Notes* per ${pearl_millet_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "pearl_millet_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Pearl Millet for Mobile Money* per ${pearl_millet_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "pearl_millet_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Pearl Millet for Plastic Money/ Swipe* per ${pearl_millet_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'4'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_pearl_millet",
+      "type": "select all that apply",
+      "label": "Why did you not sell Pearl Millet this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_pearl_millet},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_pearl_millet_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Pearl Millet"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'5')" },
+      "name": "finger_millet",
+      "type": "group",
+      "label": "Finger Millet",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "finger_millet_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Finger Millet normally sold",
+          "children": [
+            { "name": "1", "label": "100 Grams" },
+            { "name": "2", "label": "500 Grams" },
+            { "name": "3", "label": "1 Kg" },
+            { "name": "4", "label": "2 Kgs" },
+            { "name": "5", "label": "5 Kgs" },
+            { "name": "6", "label": "10 Kgs" },
+            { "name": "7", "label": "20 Kgs" },
+            { "name": "8", "label": "25 Kgs" },
+            { "name": "9", "label": "50 Kgs" },
+            { "name": "10", "label": "90 Kgs" }
+          ],
+          "list_name": "f_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${finger_millet_unit_measure},'${finger_millet_unit_measure}')"
+          },
+          "name": "finger_millet_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "finger_millet_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Finger Millet for US$ Cash* per ${finger_millet_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "finger_millet_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Finger Millet in ZA Rands Cash* per ${finger_millet_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "finger_millet_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Finger Millet for Bond Notes* per ${finger_millet_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "finger_millet_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Finger Millet for Mobile Money* per ${finger_millet_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "finger_millet_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Finger Millet for Plastic Money/ Swipe* per ${finger_millet_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'5'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_finger_millet",
+      "type": "select all that apply",
+      "label": "Why did you not sell Finger Millet this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_finger_millet},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_finger_millet_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Finger Millet"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'6')" },
+      "name": "rice",
+      "type": "group",
+      "label": "Rice",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "rice_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Rice normally sold",
+          "children": [
+            { "name": "1", "label": "100 Grams" },
+            { "name": "2", "label": "500 Grams" },
+            { "name": "3", "label": "1 Kg" },
+            { "name": "4", "label": "2 Kgs" },
+            { "name": "5", "label": "5 Kgs" },
+            { "name": "6", "label": "10 Kgs" },
+            { "name": "7", "label": "20 Kgs" },
+            { "name": "8", "label": "25 Kgs" },
+            { "name": "9", "label": "50 Kgs" },
+            { "name": "10", "label": "90 Kgs" }
+          ],
+          "list_name": "f_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${rice_unit_measure},'${rice_unit_measure}')"
+          },
+          "name": "rice_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "rice_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Rice for US$ Cash* per ${rice_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "rice_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Rice in ZA Rands Cash* per ${rice_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "rice_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Rice for Bond Notes* per ${rice_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "rice_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Rice for Mobile Money* per ${rice_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "rice_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Rice for Plastic Money/ Swipe* per ${rice_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'6'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_rice",
+      "type": "select all that apply",
+      "label": "Why did you not sell Rice this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_rice},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_rice_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Rice"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'7')" },
+      "name": "sugar_beans",
+      "type": "group",
+      "label": "Sugar beans",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "sugar_beans_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Sugar beans normally sold",
+          "children": [
+            { "name": "1", "label": "100 Grams" },
+            { "name": "2", "label": "500 Grams" },
+            { "name": "3", "label": "1 Kg" },
+            { "name": "4", "label": "2 Kgs" },
+            { "name": "5", "label": "5 Kgs" },
+            { "name": "6", "label": "10 Kgs" },
+            { "name": "7", "label": "20 Kgs" },
+            { "name": "8", "label": "25 Kgs" },
+            { "name": "9", "label": "50 Kgs" },
+            { "name": "10", "label": "90 Kgs" }
+          ],
+          "list_name": "f_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${sugar_beans_unit_measure},'${sugar_beans_unit_measure}')"
+          },
+          "name": "sugar_beans_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sugar_beans_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sugar beans for US$ Cash* per ${sugar_beans_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sugar_beans_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sugar beans in ZA Rands Cash* per ${sugar_beans_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sugar_beans_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price *Sugar beans for Bond Notes* per ${sugar_beans_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sugar_beans_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sugar beans for Mobile Money* per ${sugar_beans_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sugar_beans_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sugar beans for Plastic Money/ Swipe* per ${sugar_beans_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'7'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_sugar_beans",
+      "type": "select all that apply",
+      "label": "Why did you not sell Sugar beans this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_sugar_beans},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_sugar_beans_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Sugar beans"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'8')" },
+      "name": "cooking_oil",
+      "type": "group",
+      "label": "Cooking oil",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "cooking_oil_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Cooking oil normally sold",
+          "children": [
+            { "name": "1", "label": "100mls" },
+            { "name": "2", "label": "250mls" },
+            { "name": "3", "label": "350mls" },
+            { "name": "4", "label": "500mls" },
+            { "name": "5", "label": "750mls" },
+            { "name": "6", "label": "1 litre" },
+            { "name": "7", "label": "1.5 litres" },
+            { "name": "8", "label": "2 litres" },
+            { "name": "9", "label": "3 litres" },
+            { "name": "10", "label": "5 litres" },
+            { "name": "11", "label": "10 litres" },
+            { "name": "12", "label": "20 litres" }
+          ],
+          "list_name": "c_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${cooking_oil_unit_measure},'${cooking_oil_unit_measure}')"
+          },
+          "name": "cooking_oil_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "cooking_oil_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Cooking oil for US$ Cash* per ${cooking_oil_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "cooking_oil_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Cooking oil in ZA Rands Cash* per ${cooking_oil_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "cooking_oil_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Cooking oil for Bond Notes* per ${cooking_oil_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "cooking_oil_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Cooking oil for Mobile Money* per ${cooking_oil_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "cooking_oil_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Cooking oil for Plastic Money/ Swipe* per ${cooking_oil_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'8'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_cooking_oil",
+      "type": "select all that apply",
+      "label": "Why did you not sell Cooking oil this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_cooking_oil},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_cooking_oil_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Cooking oil"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'9')" },
+      "name": "salt",
+      "type": "group",
+      "label": "Salt",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "salt_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Salt normally sold",
+          "children": [
+            { "name": "1", "label": "100 Grams" },
+            { "name": "2", "label": "500 Grams" },
+            { "name": "3", "label": "1 Kg" },
+            { "name": "4", "label": "2 Kgs" },
+            { "name": "5", "label": "5 Kgs" },
+            { "name": "6", "label": "10 Kgs" },
+            { "name": "7", "label": "20 Kgs" },
+            { "name": "8", "label": "25 Kgs" },
+            { "name": "9", "label": "50 Kgs" },
+            { "name": "10", "label": "90 Kgs" }
+          ],
+          "list_name": "f_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${salt_unit_measure},'${salt_unit_measure}')"
+          },
+          "name": "salt_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "salt_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Salt for US$ Cash* per ${salt_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "salt_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Salt in ZA Rands Cash* per ${salt_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "salt_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Salt for Bond Notes* per ${salt_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "salt_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Salt for Mobile Money* per ${salt_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "salt_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Salt for Plastic Money/ Swipe* per ${salt_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'9'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_salt",
+      "type": "select all that apply",
+      "label": "Why did you not sell Salt this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_salt},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_salt_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Salt"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'10')" },
+      "name": "sugar",
+      "type": "group",
+      "label": "Sugar",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "sugar_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Sugar normally sold",
+          "children": [
+            { "name": "1", "label": "100 Grams" },
+            { "name": "2", "label": "500 Grams" },
+            { "name": "3", "label": "1 Kg" },
+            { "name": "4", "label": "2 Kgs" },
+            { "name": "5", "label": "5 Kgs" },
+            { "name": "6", "label": "10 Kgs" },
+            { "name": "7", "label": "20 Kgs" },
+            { "name": "8", "label": "25 Kgs" },
+            { "name": "9", "label": "50 Kgs" },
+            { "name": "10", "label": "90 Kgs" }
+          ],
+          "list_name": "f_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${sugar_unit_measure},'${sugar_unit_measure}')"
+          },
+          "name": "sugar_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sugar_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sugar for US$ Cash* per ${sugar_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sugar_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sugar in ZA Rands Cash* per ${sugar_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sugar_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sugar for Bond Notes* per ${sugar_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sugar_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sugar for Mobile Money* per ${sugar_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sugar_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sugar for Plastic Money/ Swipe* per ${sugar_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'10'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_sugar",
+      "type": "select all that apply",
+      "label": "Why did you not sell Sugar this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_sugar},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_sugar_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Sugar"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'11')" },
+      "name": "kapenta",
+      "type": "group",
+      "label": "Kapenta",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "kapenta_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Kapenta normally sold",
+          "children": [
+            { "name": "1", "label": "100 Grams" },
+            { "name": "2", "label": "500 Grams" },
+            { "name": "3", "label": "1 Kg" },
+            { "name": "4", "label": "2 Kgs" },
+            { "name": "5", "label": "5 Kgs" },
+            { "name": "6", "label": "10 Kgs" },
+            { "name": "7", "label": "20 Kgs" },
+            { "name": "8", "label": "25 Kgs" },
+            { "name": "9", "label": "50 Kgs" },
+            { "name": "10", "label": "90 Kgs" }
+          ],
+          "list_name": "f_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${kapenta_unit_measure},'${kapenta_unit_measure}')"
+          },
+          "name": "kapenta_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "kapenta_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Kapenta for US$ Cash* per ${kapenta_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "kapenta_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Kapenta in ZA Rands Cash* per ${kapenta_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "kapenta_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Kapenta for Bond Notes* per ${kapenta_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "kapenta_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Kapenta for Mobile Money* per ${kapenta_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "kapenta_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Kapenta for Plastic Money/ Swipe* per ${kapenta_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'11'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_kapenta",
+      "type": "select all that apply",
+      "label": "Why did you not sell Kapenta this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_kapenta},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_kapenta_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Kapenta"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'12')" },
+      "name": "flour",
+      "type": "group",
+      "label": "Flour",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "flour_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Flour normally sold",
+          "children": [
+            { "name": "1", "label": "100 Grams" },
+            { "name": "2", "label": "500 Grams" },
+            { "name": "3", "label": "1 Kg" },
+            { "name": "4", "label": "2 Kgs" },
+            { "name": "5", "label": "5 Kgs" },
+            { "name": "6", "label": "10 Kgs" },
+            { "name": "7", "label": "20 Kgs" },
+            { "name": "8", "label": "25 Kgs" },
+            { "name": "9", "label": "50 Kgs" },
+            { "name": "10", "label": "90 Kgs" }
+          ],
+          "list_name": "f_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${flour_unit_measure},'${flour_unit_measure}')"
+          },
+          "name": "flour_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "flour_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Flour for US$ Cash* per ${flour_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "flour_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Flour in ZA Rands Cash* per ${flour_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "flour_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Flour for Bond Notes* per ${flour_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "flour_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Flour for Mobile Money* per ${flour_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "flour_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Flour for Plastic Money/ Swipe* per ${flour_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'12'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_flour",
+      "type": "select all that apply",
+      "label": "Why did you not sell Flour this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_flour},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_flour_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Flour"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'13')" },
+      "name": "bread",
+      "type": "group",
+      "label": "Bread",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "bread_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Bread normally sold",
+          "children": [
+            { "name": "1", "label": "Full loaf" },
+            { "name": "2", "label": "Half loaf" },
+            { "name": "3", "label": "Qaurter loaf" }
+          ],
+          "list_name": "b_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${bread_unit_measure},'${bread_unit_measure}')"
+          },
+          "name": "bread_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "bread_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Bread for US$ Cash* per ${bread_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "bread_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Bread in ZA Rands Cash* per ${bread_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "bread_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Bread for Bond Notes* per ${bread_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "bread_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Bread for Mobile Money* per ${bread_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "bread_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Bread for Plastic Money/ Swipe* per ${bread_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'13'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_bread",
+      "type": "select all that apply",
+      "label": "Why did you not sell Bread this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_bread},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_bread_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Bread"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'14')" },
+      "name": "potatoes",
+      "type": "group",
+      "label": "Potatoes",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "potatoes_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Potatoes normally sold",
+          "children": [
+            { "name": "1", "label": "100 Grams" },
+            { "name": "2", "label": "500 Grams" },
+            { "name": "3", "label": "1 Kg" },
+            { "name": "4", "label": "2 Kgs" },
+            { "name": "5", "label": "5 Kgs" },
+            { "name": "6", "label": "10 Kgs" },
+            { "name": "7", "label": "20 Kgs" },
+            { "name": "8", "label": "25 Kgs" },
+            { "name": "9", "label": "50 Kgs" },
+            { "name": "10", "label": "90 Kgs" }
+          ],
+          "list_name": "f_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${potatoes_unit_measure},'${potatoes_unit_measure}')"
+          },
+          "name": "potatoes_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "potatoes_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Potatoes for US$ Cash* per ${potatoes_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "potatoes_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Potatoes in ZA Rands Cash* per ${potatoes_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "potatoes_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Potatoes for Bond Notes* per ${potatoes_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "potatoes_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Potatoes for Mobile Money* per ${potatoes_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "potatoes_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Potatoes for Plastic Money/ Swipe* per ${potatoes_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'14'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_potatoes",
+      "type": "select all that apply",
+      "label": "Why did you not sell Potatoes this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_potatoes},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_potatoes_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Potatoes"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'15')" },
+      "name": "green_lfy_veges",
+      "type": "group",
+      "label": "Green leafy vegetables",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "green_lfy_veges_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Green leafy vegetables normally sold",
+          "children": [
+            { "name": "1", "label": "Bundle" },
+            { "name": "2", "label": "Pieces" },
+            { "name": "3", "label": "Stems" },
+            { "name": "4", "label": "Head" }
+          ],
+          "list_name": "g_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${green_lfy_veges_unit_measure},'${green_lfy_veges_unit_measure}')"
+          },
+          "name": "green_lfy_veges_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "green_lfy_veges_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Green leafy vegetables for US$ Cash* per ${green_lfy_veges_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "green_lfy_veges_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Green leafy vegetables in ZA Rands Cash* per ${green_lfy_veges_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "green_lfy_veges_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Green leafy vegetables for Bond Notes* per ${green_lfy_veges_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "green_lfy_veges_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Green leafy vegetables for Mobile Money* per ${green_lfy_veges_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "green_lfy_veges_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Green leafy vegetables for Plastic Money/ Swipe* per ${green_lfy_veges_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'15'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_green_lfy_veges",
+      "type": "select all that apply",
+      "label": "Why did you not sell Green leafy vegetables this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_green_lfy_veges},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_green_lfy_veges_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Green leafy vegetables"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'20')" },
+      "name": "tomatoes",
+      "type": "group",
+      "label": "Tomatoes",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "tomatoes_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Tomatoes normally sold",
+          "children": [
+            { "name": "1", "label": "100 grams" },
+            { "name": "2", "label": "200 grams" },
+            { "name": "3", "label": "300 grams" },
+            { "name": "4", "label": "400 grams" },
+            { "name": "5", "label": "500 grams" },
+            { "name": "6", "label": "600 grams" },
+            { "name": "7", "label": "700 grams" },
+            { "name": "8", "label": "800 grams" },
+            { "name": "9", "label": "900 grams" },
+            { "name": "10", "label": "1 Kg" },
+            { "name": "11", "label": "1.5 kgs" },
+            { "name": "12", "label": "2 Kgs" }
+          ],
+          "list_name": "t_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${tomatoes_unit_measure},'${tomatoes_unit_measure}')"
+          },
+          "name": "tomatoes_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "tomatoes_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Tomatoes for US$ Cash* per ${tomatoes_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "tomatoes_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Tomatoes in ZA Rands Cash* per ${tomatoes_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "tomatoes_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Tomatoes for Bond Notes* per ${tomatoes_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "tomatoes_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Tomatoes for Mobile Money* per ${tomatoes_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "tomatoes_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Tomatoes for Plastic Money/ Swipe* per ${tomatoes_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'20'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_tomatoes",
+      "type": "select all that apply",
+      "label": "Why did you not sell Tomatoes this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_tomatoes},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_tomatoes_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Tomatoes"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'21')" },
+      "name": "onions",
+      "type": "group",
+      "label": "Onions",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "onions_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Onions normally sold",
+          "children": [
+            { "name": "1", "label": "Bundle" },
+            { "name": "2", "label": "Pieces" },
+            { "name": "3", "label": "Stems" },
+            { "name": "4", "label": "Head" }
+          ],
+          "list_name": "g_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${onions_unit_measure},'${onions_unit_measure}')"
+          },
+          "name": "onions_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "onions_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Onions for US$ Cash* per ${onions_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "onions_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Onions in ZA Rands Cash* per ${onions_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "onions_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Onions for Bond Notes* per ${onions_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "onions_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Onions for Mobile Money* per ${onions_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "onions_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Onions for Plastic Money/ Swipe* per ${onions_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'21'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_onions",
+      "type": "select all that apply",
+      "label": "Why did you not sell Onions this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_onions},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_onions_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Onions"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'16')" },
+      "name": "beef",
+      "type": "group",
+      "label": "Beef",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "beef_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Beef normally sold",
+          "children": [
+            { "name": "1", "label": "100 Grams" },
+            { "name": "2", "label": "500 Grams" },
+            { "name": "3", "label": "1 Kg" },
+            { "name": "4", "label": "2 Kgs" },
+            { "name": "5", "label": "5 Kgs" },
+            { "name": "6", "label": "10 Kgs" },
+            { "name": "7", "label": "20 Kgs" },
+            { "name": "8", "label": "25 Kgs" },
+            { "name": "9", "label": "50 Kgs" },
+            { "name": "10", "label": "90 Kgs" }
+          ],
+          "list_name": "f_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${beef_unit_measure},'${beef_unit_measure}')"
+          },
+          "name": "beef_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "beef_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Beef for US$ Cash* per ${beef_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "beef_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Beef in ZA Rands Cash* per ${beef_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "beef_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Beef for Bond Notes* per ${beef_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "beef_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Beef for Mobile Money* per ${beef_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "beef_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Beef for Plastic Money/ Swipe* per ${beef_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'16'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_beef",
+      "type": "select all that apply",
+      "label": "Why did you not sell Beef this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_beef},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_beef_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Beef"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'17')" },
+      "name": "fish",
+      "type": "group",
+      "label": "Fish",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "fish_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Fish normally sold",
+          "children": [
+            { "name": "1", "label": "100 Grams" },
+            { "name": "2", "label": "500 Grams" },
+            { "name": "3", "label": "1 Kg" },
+            { "name": "4", "label": "2 Kgs" },
+            { "name": "5", "label": "5 Kgs" },
+            { "name": "6", "label": "10 Kgs" },
+            { "name": "7", "label": "20 Kgs" },
+            { "name": "8", "label": "25 Kgs" },
+            { "name": "9", "label": "50 Kgs" },
+            { "name": "10", "label": "90 Kgs" }
+          ],
+          "list_name": "f_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${fish_unit_measure},'${fish_unit_measure}')"
+          },
+          "name": "fish_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "fish_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Fish for US$ Cash* per ${fish_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "fish_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Fish in ZA Rands Cash* per ${fish_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "fish_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Fish for Bond Notes* per ${fish_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "fish_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Fish for Mobile Money* per ${fish_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "fish_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Fish for Plastic Money/ Swipe* per ${fish_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'17'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_fish",
+      "type": "select all that apply",
+      "label": "Why did you not sell Fish this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_fish},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_fish_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Fish"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'18')" },
+      "name": "chicken",
+      "type": "group",
+      "label": "Chicken",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "chicken_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Chicken normally sold",
+          "children": [
+            { "name": "1", "label": "100 Grams" },
+            { "name": "2", "label": "500 Grams" },
+            { "name": "3", "label": "1 Kg" },
+            { "name": "4", "label": "2 Kgs" },
+            { "name": "5", "label": "5 Kgs" },
+            { "name": "6", "label": "10 Kgs" },
+            { "name": "7", "label": "20 Kgs" },
+            { "name": "8", "label": "25 Kgs" },
+            { "name": "9", "label": "50 Kgs" },
+            { "name": "10", "label": "90 Kgs" }
+          ],
+          "list_name": "f_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${chicken_unit_measure},'${chicken_unit_measure}')"
+          },
+          "name": "chicken_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "chicken_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Chicken for US$ Cash* per ${chicken_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "chicken_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Chicken in ZA Rands Cash* per ${chicken_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "chicken_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Chicken for Bond Notes* per ${chicken_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "chicken_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Chicken for Mobile Money* per ${chicken_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "chicken_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Chicken for Plastic Money/ Swipe* per ${chicken_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'18'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_chicken",
+      "type": "select all that apply",
+      "label": "Why did you not sell Chicken this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_chicken},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_chicken_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Chicken"
+    },
+    {
+      "bind": { "relevant": "selected(${food_items_sold},'19')" },
+      "name": "vitA_rich_fruits",
+      "type": "group",
+      "label": "Vitamin A rich fruits Mango, apricot, peach, paw-paw excluding citrus fruits)",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "vitA_rich_fruits_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Vitamin A rich fruits Mango, apricot, peach, paw-paw excluding citrus fruits) normally sold",
+          "children": [
+            { "name": "1", "label": "100 Grams" },
+            { "name": "2", "label": "500 Grams" },
+            { "name": "3", "label": "1 Kg" },
+            { "name": "4", "label": "2 Kgs" },
+            { "name": "5", "label": "5 Kgs" },
+            { "name": "6", "label": "10 Kgs" },
+            { "name": "7", "label": "20 Kgs" },
+            { "name": "8", "label": "25 Kgs" },
+            { "name": "9", "label": "50 Kgs" },
+            { "name": "10", "label": "90 Kgs" }
+          ],
+          "list_name": "f_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${vitA_rich_fruits_unit_measure},'${vitA_rich_fruits_unit_measure}')"
+          },
+          "name": "vitA_rich_fruits_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "vitA_rich_fruits_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Vitamin A rich fruits Mango, apricot, peach, paw-paw excluding citrus fruits) for US$ Cash* per ${vitA_rich_fruits_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "vitA_rich_fruits_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Vitamin A rich fruits Mango, apricot, peach, paw-paw excluding citrus fruits) in ZA Rands Cash* per ${vitA_rich_fruits_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "vitA_rich_fruits_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Vitamin A rich fruits Mango, apricot, peach, paw-paw excluding citrus fruits) for Bond Notes* per ${vitA_rich_fruits_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "vitA_rich_fruits_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Vitamin A rich fruits Mango, apricot, peach, paw-paw excluding citrus fruits) for Mobile Money* per ${vitA_rich_fruits_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "vitA_rich_fruits_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Vitamin A rich fruits Mango, apricot, peach, paw-paw excluding citrus fruits) for Plastic Money/ Swipe* per ${vitA_rich_fruits_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": {
+        "relevant": "not(selected(${food_items_sold},'19'))",
+        "required": "yes"
+      },
+      "name": "why_not_sell_vitA_rich_fruits",
+      "type": "select all that apply",
+      "label": "Why did you not sell Vitamin A rich fruits Mango, apricot, peach, paw-paw excluding citrus fruits) this past week?",
+      "children": [
+        { "name": "1", "label": "Lack of availability with supplier" },
+        {
+          "name": "2",
+          "label": "Lack of resources to restock (e.g. money, transport, etc.)"
+        },
+        { "name": "3", "label": "Lack of demand" },
+        { "name": "4", "label": "Other" }
+      ],
+      "list_name": "not_sell"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${why_not_sell_vitA_rich_fruits},'4')",
+        "required": "yes"
+      },
+      "name": "why_not_sell_vitA_rich_fruits_other",
+      "type": "text",
+      "label": "Specify other reason why you did not sell Vitamin A rich fruits Mango, apricot, peach, paw-paw excluding citrus fruits)"
+    },
+    {
+      "bind": { "relevant": "selected(${non_food_items_sold},'1')" },
+      "name": "laundry_soap",
+      "type": "group",
+      "label": "Laundry soap",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "laundry_soap_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Laundry soap normally sold",
+          "children": [
+            { "name": "1", "label": "100gms" },
+            { "name": "2", "label": "200gms" },
+            { "name": "3", "label": "500gms" },
+            { "name": "4", "label": "1Kg" },
+            { "name": "5", "label": "1.5kgs" },
+            { "name": "6", "label": "2Kgs" },
+            { "name": "7", "label": "5kgs" },
+            { "name": "8", "label": "20kgs" }
+          ],
+          "list_name": "soap_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${laundry_soap_unit_measure},'${laundry_soap_unit_measure}')"
+          },
+          "name": "laundry_soap_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "laundry_soap_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Laundry soap for US$ Cash* per ${laundry_soap_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "laundry_soap_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Laundry soap in ZA Rands Cash* per ${laundry_soap_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "laundry_soap_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Laundry soap for Bond Notes* per ${laundry_soap_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "laundry_soap_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Laundry soap for Mobile Money* per ${laundry_soap_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "laundry_soap_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Laundry soap for Plastic Money/ Swipe* per ${laundry_soap_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": { "relevant": "selected(${non_food_items_sold},'2')" },
+      "name": "bathing_soap",
+      "type": "group",
+      "label": "Bathing soap",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "bathing_soap_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Bathing soap normally sold",
+          "children": [
+            { "name": "1", "label": "100gms" },
+            { "name": "2", "label": "200gms" },
+            { "name": "3", "label": "500gms" },
+            { "name": "4", "label": "1Kg" },
+            { "name": "5", "label": "1.5kgs" },
+            { "name": "6", "label": "2Kgs" },
+            { "name": "7", "label": "5kgs" },
+            { "name": "8", "label": "20kgs" }
+          ],
+          "list_name": "soap_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${bathing_soap_unit_measure},'${bathing_soap_unit_measure}')"
+          },
+          "name": "bathing_soap_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "bathing_soap_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Bathing soap for US$ Cash* per ${bathing_soap_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "bathing_soap_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Bathing soap in ZA Rands Cash* per ${bathing_soap_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "bathing_soap_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Bathing soap for Bond Notes* per ${bathing_soap_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "bathing_soap_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Bathing soap for Mobile Money* per ${bathing_soap_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "bathing_soap_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Bathing soap for Plastic Money/ Swipe* per ${bathing_soap_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": { "relevant": "selected(${non_food_items_sold},'3')" },
+      "name": "toothpaste",
+      "type": "group",
+      "label": "Toothpaste",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "toothpaste_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Toothpaste normally sold",
+          "children": [
+            { "name": "1", "label": "50ml" },
+            { "name": "2", "label": "100ml" },
+            { "name": "3", "label": "150ml" },
+            { "name": "4", "label": "200ml" },
+            { "name": "5", "label": "250ml" }
+          ],
+          "list_name": "toothpaste_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${toothpaste_unit_measure},'${toothpaste_unit_measure}')"
+          },
+          "name": "toothpaste_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "toothpaste_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Toothpaste for US$ Cash* per ${toothpaste_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "toothpaste_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Toothpaste in ZA Rands Cash* per ${toothpaste_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "toothpaste_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Toothpaste for Bond Notes* per ${toothpaste_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "toothpaste_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Toothpaste for Mobile Money* per ${toothpaste_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "toothpaste_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Toothpaste for Plastic Money/ Swipe* per ${toothpaste_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": { "relevant": "selected(${non_food_items_sold},'4')" },
+      "name": "petroleum_jelly",
+      "type": "group",
+      "label": "Petroleum jelly",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "petroleum_jelly_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Petroleum jelly normally sold",
+          "children": [
+            { "name": "1", "label": "25mls" },
+            { "name": "2", "label": "50mls" },
+            { "name": "3", "label": "75mls" },
+            { "name": "4", "label": "100mls" },
+            { "name": "5", "label": "150mls" },
+            { "name": "6", "label": "200mls" }
+          ],
+          "list_name": "petjelly_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${petroleum_jelly_unit_measure},'${petroleum_jelly_unit_measure}')"
+          },
+          "name": "petroleum_jelly_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "petroleum_jelly_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Petroleum jelly for US$ Cash* per ${petroleum_jelly_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "petroleum_jelly_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Petroleum jelly in ZA Rands Cash* per ${petroleum_jelly_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "petroleum_jelly_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Petroleum jelly for Bond Notes* per ${petroleum_jelly_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "petroleum_jelly_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Petroleum jelly for Mobile Money* per ${petroleum_jelly_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "petroleum_jelly_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Petroleum jelly for Plastic Money/ Swipe* per ${petroleum_jelly_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": { "relevant": "selected(${non_food_items_sold},'5')" },
+      "name": "sanitary_pads",
+      "type": "group",
+      "label": "Sanitary pads",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "sanitary_pads_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Sanitary pads normally sold",
+          "children": [
+            { "name": "1", "label": "1's" },
+            { "name": "2", "label": "10's" },
+            { "name": "3", "label": "20's" },
+            { "name": "4", "label": "30's" },
+            { "name": "5", "label": "45's" },
+            { "name": "6", "label": "50's" }
+          ],
+          "list_name": "spads_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${sanitary_pads_unit_measure},'${sanitary_pads_unit_measure}')"
+          },
+          "name": "sanitary_pads_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sanitary_pads_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sanitary pads for US$ Cash* per ${sanitary_pads_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sanitary_pads_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sanitary pads in ZA Rands Cash* per ${sanitary_pads_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sanitary_pads_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sanitary pads for Bond Notes* per ${sanitary_pads_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sanitary_pads_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sanitary pads for Mobile Money* per ${sanitary_pads_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "sanitary_pads_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Sanitary pads for Plastic Money/ Swipe* per ${sanitary_pads_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": { "relevant": "selected(${non_food_items_sold},'6')" },
+      "name": "hand_sanitizer",
+      "type": "group",
+      "label": "Hand sanitizer",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "hand_sanitizer_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Hand sanitizer normally sold",
+          "children": [
+            { "name": "1", "label": "25mls" },
+            { "name": "2", "label": "50mls" },
+            { "name": "3", "label": "75mls" },
+            { "name": "4", "label": "100mls" },
+            { "name": "5", "label": "150mls" },
+            { "name": "6", "label": "200mls" }
+          ],
+          "list_name": "petjelly_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${hand_sanitizer_unit_measure},'${hand_sanitizer_unit_measure}')"
+          },
+          "name": "hand_sanitizer_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "hand_sanitizer_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Hand sanitizer for US$ Cash* per ${hand_sanitizer_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "hand_sanitizer_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Hand sanitizer in ZA Rands Cash* per ${hand_sanitizer_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "hand_sanitizer_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Hand sanitizer for Bond Notes* per ${hand_sanitizer_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "hand_sanitizer_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Hand sanitizer for Mobile Money* per ${hand_sanitizer_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "hand_sanitizer_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Hand sanitizer for Plastic Money/ Swipe* per ${hand_sanitizer_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": { "relevant": "selected(${non_food_items_sold},'7')" },
+      "name": "face_masks",
+      "type": "group",
+      "label": "Face masks",
+      "control": { "appearance": "field-list" },
+      "children": [
+        {
+          "bind": { "required": "yes" },
+          "name": "face_masks_unit_measure",
+          "type": "select one",
+          "label": "Unit of Measure for Face masks normally sold",
+          "children": [
+            { "name": "1", "label": "1's" },
+            { "name": "2", "label": "10's" },
+            { "name": "3", "label": "20's" },
+            { "name": "4", "label": "30's" },
+            { "name": "5", "label": "45's" },
+            { "name": "6", "label": "50's" }
+          ],
+          "list_name": "spads_um"
+        },
+        {
+          "bind": {
+            "calculate": "jr:choice-name(${face_masks_unit_measure},'${face_masks_unit_measure}')"
+          },
+          "name": "face_masks_unit_label",
+          "type": "calculate"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "face_masks_retails_us_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Face masks for US$ Cash* per ${face_masks_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "face_masks_retails_za_rand_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Face masks in ZA Rands Cash* per ${face_masks_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "face_masks_retails_bond_notes_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Face masks for Bond Notes* per ${face_masks_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "face_masks_retails_mobile_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Face masks for Mobile Money* per ${face_masks_unit_label}"
+        },
+        {
+          "bind": { "required": "yes" },
+          "name": "face_masks_retails_plastic_money_price",
+          "type": "decimal",
+          "label": "Current Retail Price of *Face masks for Plastic Money/ Swipe* per ${face_masks_unit_label}"
+        }
+      ]
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "hard_do_business",
+      "type": "select one",
+      "label": "Over the past two weeks, has it become harder to do business?",
+      "children": [
+        { "name": "1", "label": "Yes" },
+        { "name": "2", "label": "No" }
+      ],
+      "list_name": "yn"
+    },
+    {
+      "bind": { "relevant": "${hard_do_business}='1'", "required": "yes" },
+      "name": "hard_do_business_reason",
+      "type": "select all that apply",
+      "label": "Why is has it become harder to do business over the past two weeks",
+      "children": [
+        { "name": "1", "label": "Lower demand" },
+        { "name": "2", "label": "Higher transport cost" },
+        { "name": "3", "label": "Continuous price increases" },
+        {
+          "name": "4",
+          "label": "Difficulty and/or delays in daily price setting"
+        },
+        { "name": "5", "label": "Covid -19 Lockdown" },
+        { "name": "6", "label": "Less people coming  and process is slower" },
+        { "name": "7", "label": "Other" }
+      ],
+      "list_name": "h2b"
+    },
+    {
+      "bind": {
+        "relevant": "selected(${hard_do_business_reason},'7')",
+        "required": "yes"
+      },
+      "name": "hard_do_business_reason_other",
+      "type": "text",
+      "label": "Specify other reason for why it has become harder to do business:"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "comments_obervsations",
+      "type": "text",
+      "label": "Any observations from the market that might have taken place this week, compared to usual situations?"
+    },
+    {
+      "bind": { "required": "yes" },
+      "name": "location_gps",
+      "type": "gps",
+      "label": "Capture GPS"
+    },
+    {
+      "name": "meta",
+      "type": "group",
+      "control": { "bodyless": true },
+      "children": [
+        {
+          "bind": { "readonly": "true()", "jr:preload": "uid" },
+          "name": "instanceID",
+          "type": "calculate"
+        }
+      ]
+    }
+  ],
+  "id_string": "markets_monitoring_tool",
+  "sms_keyword": "markets_monitoring_tool",
+  "default_language": "English"
+}

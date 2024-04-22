@@ -17,11 +17,7 @@ def get_xform_type_to_json_schema_type_lookup():
     # set(xform_q_name_to_q_type.values())
     xform_type_to_json_schema_type = {
         "string": "string",
-        # pyxform int type should ideally map to json schema integer type
-        # but some fields described as int type in pyxform
-        # have been observed to be of decimal type instead in submission data
-        # see issue here https://github.com/onaio/zebra/issues/7798
-        "int": "number",
+        "int": "integer",
         "decimal": "number",
         "time": "string",
         "date": "string",
@@ -82,9 +78,30 @@ def get_schema_properties(
             schema_properties.append(
                 {
                     child_path: {
-                        "type": xform_type_to_json_schema_type_lookup.get(
-                            child["type"], "string"
-                        )
+                        # default to "string" then "null" types
+                        # in case lookup type is not compatible
+                        # e.g found a string "300%" instead of expected integer "300"
+                        # see issue here https://github.com/onaio/zebra/issues/7798
+                        "type": [
+                            "null",
+                            *(
+                                ["string"]
+                                if (
+                                    lookup_type := xform_type_to_json_schema_type_lookup.get(
+                                        child["type"], "string"
+                                    )
+                                )
+                                != "string"
+                                else []
+                            ),
+                            # default to "number" type
+                            # in case lookup type is of type integer
+                            # but underlying data is not compatible
+                            # e.g found data "-1.0" in a column of type integer
+                            # see issue here https://github.com/onaio/zebra/issues/7798
+                            *(["number"] if (lookup_type) == "integer" else []),
+                            lookup_type,
+                        ]
                     }
                 }
             )
@@ -99,9 +116,7 @@ def xform_to_json_schema(xform: dict, include_meta_data: bool = True):
             k: v for prop in get_schema_properties(xform) for k, v in prop.items()
         },
         # accept additional properties not explicitly defined in schema/xform
-        "additionalProperties": {
-            "type": ["string", "number", "object", "array", "boolean", "null"]
-        },
+        "additionalProperties": True,
     }
 
     if include_meta_data:

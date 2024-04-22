@@ -1,0 +1,907 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "start": {
+      "type": ["null", "string"]
+    },
+    "end": {
+      "type": ["null", "string"]
+    },
+    "today": {
+      "type": ["null", "string"]
+    },
+    "int_name": {
+      "type": ["null", "string"]
+    },
+    "int_date": {
+      "type": ["null", "string"]
+    },
+    "reference_period": {
+      "type": ["null", "string"]
+    },
+    "type_interview": {
+      "type": ["null", "string"]
+    },
+    "province": {
+      "type": ["null", "string"]
+    },
+    "district": {
+      "type": ["null", "string"]
+    },
+    "ward": {
+      "type": ["null", "string"]
+    },
+    "neighbourhood": {
+      "type": ["null", "string"]
+    },
+    "neighbourhood_other": {
+      "type": ["null", "string"]
+    },
+    "market_name": {
+      "type": ["null", "string"]
+    },
+    "type_market": {
+      "type": ["null", "string"]
+    },
+    "ongoing_cash_intervention": {
+      "type": ["null", "string"]
+    },
+    "ongoing_food_distribution": {
+      "type": ["null", "string"]
+    },
+    "store_trader_name": {
+      "type": ["null", "string"]
+    },
+    "payment_modality_accpt": {
+      "type": ["null", "string"]
+    },
+    "payment_modality_accpt_other": {
+      "type": ["null", "string"]
+    },
+    "come_buy_maize_grain": {
+      "type": ["null", "string"]
+    },
+    "come_buy_maize_grain_whom": {
+      "type": ["null", "string"]
+    },
+    "people_dont_buy_maize": {
+      "type": ["null", "string"]
+    },
+    "people_dont_buy_maize_other": {
+      "type": ["null", "string"]
+    },
+    "food_items_trade": {
+      "type": ["null", "string"]
+    },
+    "non_food_items_trade": {
+      "type": ["null", "string"]
+    },
+    "food_items_sold": {
+      "type": ["null", "string"]
+    },
+    "non_food_items_sold": {
+      "type": ["null", "string"]
+    },
+    "maize_grain/maize_grain_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "maize_grain/maize_grain_unit_label": {
+      "type": ["null", "string"]
+    },
+    "maize_grain/maize_grain_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "maize_grain/maize_grain_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "maize_grain/maize_grain_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "maize_grain/maize_grain_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "maize_grain/maize_grain_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "maize_grain_fortification_variety_avail": {
+      "type": ["null", "string"]
+    },
+    "maize_grain_avail_gmb_points": {
+      "type": ["null", "string"]
+    },
+    "maize_meal/maize_meal_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "maize_meal/maize_meal_unit_label": {
+      "type": ["null", "string"]
+    },
+    "maize_meal/maize_meal_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "maize_meal/maize_meal_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "maize_meal/maize_meal_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "maize_meal/maize_meal_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "maize_meal/maize_meal_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "maize_meal_fortification_variety_avail": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_maize_meal": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_maize_meal_other": {
+      "type": ["null", "string"]
+    },
+    "worry_not_enough_maize_grain_meal": {
+      "type": ["null", "string"]
+    },
+    "restock_maize_grain_meal_further_away": {
+      "type": ["null", "string"]
+    },
+    "restock_maize_grain_meal_unable_find_type": {
+      "type": ["null", "string"]
+    },
+    "restock_maize_grain_meal_unable_find_vol": {
+      "type": ["null", "string"]
+    },
+    "maize_grain_meal_fail_meet_demand": {
+      "type": ["null", "string"]
+    },
+    "maize_grain_meal_out_stock": {
+      "type": ["null", "string"]
+    },
+    "sorghum/sorghum_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "sorghum/sorghum_unit_label": {
+      "type": ["null", "string"]
+    },
+    "sorghum/sorghum_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sorghum/sorghum_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sorghum/sorghum_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sorghum/sorghum_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sorghum/sorghum_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_sorghum": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_sorghum_other": {
+      "type": ["null", "string"]
+    },
+    "pearl_millet/pearl_millet_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "pearl_millet/pearl_millet_unit_label": {
+      "type": ["null", "string"]
+    },
+    "pearl_millet/pearl_millet_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "pearl_millet/pearl_millet_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "pearl_millet/pearl_millet_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "pearl_millet/pearl_millet_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "pearl_millet/pearl_millet_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_pearl_millet": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_pearl_millet_other": {
+      "type": ["null", "string"]
+    },
+    "finger_millet/finger_millet_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "finger_millet/finger_millet_unit_label": {
+      "type": ["null", "string"]
+    },
+    "finger_millet/finger_millet_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "finger_millet/finger_millet_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "finger_millet/finger_millet_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "finger_millet/finger_millet_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "finger_millet/finger_millet_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_finger_millet": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_finger_millet_other": {
+      "type": ["null", "string"]
+    },
+    "rice/rice_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "rice/rice_unit_label": {
+      "type": ["null", "string"]
+    },
+    "rice/rice_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "rice/rice_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "rice/rice_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "rice/rice_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "rice/rice_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_rice": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_rice_other": {
+      "type": ["null", "string"]
+    },
+    "sugar_beans/sugar_beans_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "sugar_beans/sugar_beans_unit_label": {
+      "type": ["null", "string"]
+    },
+    "sugar_beans/sugar_beans_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sugar_beans/sugar_beans_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sugar_beans/sugar_beans_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sugar_beans/sugar_beans_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sugar_beans/sugar_beans_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_sugar_beans": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_sugar_beans_other": {
+      "type": ["null", "string"]
+    },
+    "cooking_oil/cooking_oil_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "cooking_oil/cooking_oil_unit_label": {
+      "type": ["null", "string"]
+    },
+    "cooking_oil/cooking_oil_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "cooking_oil/cooking_oil_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "cooking_oil/cooking_oil_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "cooking_oil/cooking_oil_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "cooking_oil/cooking_oil_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_cooking_oil": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_cooking_oil_other": {
+      "type": ["null", "string"]
+    },
+    "salt/salt_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "salt/salt_unit_label": {
+      "type": ["null", "string"]
+    },
+    "salt/salt_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "salt/salt_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "salt/salt_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "salt/salt_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "salt/salt_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_salt": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_salt_other": {
+      "type": ["null", "string"]
+    },
+    "sugar/sugar_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "sugar/sugar_unit_label": {
+      "type": ["null", "string"]
+    },
+    "sugar/sugar_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sugar/sugar_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sugar/sugar_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sugar/sugar_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sugar/sugar_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_sugar": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_sugar_other": {
+      "type": ["null", "string"]
+    },
+    "kapenta/kapenta_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "kapenta/kapenta_unit_label": {
+      "type": ["null", "string"]
+    },
+    "kapenta/kapenta_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "kapenta/kapenta_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "kapenta/kapenta_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "kapenta/kapenta_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "kapenta/kapenta_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_kapenta": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_kapenta_other": {
+      "type": ["null", "string"]
+    },
+    "flour/flour_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "flour/flour_unit_label": {
+      "type": ["null", "string"]
+    },
+    "flour/flour_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "flour/flour_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "flour/flour_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "flour/flour_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "flour/flour_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_flour": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_flour_other": {
+      "type": ["null", "string"]
+    },
+    "bread/bread_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "bread/bread_unit_label": {
+      "type": ["null", "string"]
+    },
+    "bread/bread_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "bread/bread_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "bread/bread_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "bread/bread_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "bread/bread_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_bread": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_bread_other": {
+      "type": ["null", "string"]
+    },
+    "potatoes/potatoes_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "potatoes/potatoes_unit_label": {
+      "type": ["null", "string"]
+    },
+    "potatoes/potatoes_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "potatoes/potatoes_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "potatoes/potatoes_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "potatoes/potatoes_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "potatoes/potatoes_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_potatoes": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_potatoes_other": {
+      "type": ["null", "string"]
+    },
+    "green_lfy_veges/green_lfy_veges_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "green_lfy_veges/green_lfy_veges_unit_label": {
+      "type": ["null", "string"]
+    },
+    "green_lfy_veges/green_lfy_veges_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "green_lfy_veges/green_lfy_veges_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "green_lfy_veges/green_lfy_veges_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "green_lfy_veges/green_lfy_veges_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "green_lfy_veges/green_lfy_veges_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_green_lfy_veges": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_green_lfy_veges_other": {
+      "type": ["null", "string"]
+    },
+    "tomatoes/tomatoes_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "tomatoes/tomatoes_unit_label": {
+      "type": ["null", "string"]
+    },
+    "tomatoes/tomatoes_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "tomatoes/tomatoes_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "tomatoes/tomatoes_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "tomatoes/tomatoes_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "tomatoes/tomatoes_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_tomatoes": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_tomatoes_other": {
+      "type": ["null", "string"]
+    },
+    "onions/onions_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "onions/onions_unit_label": {
+      "type": ["null", "string"]
+    },
+    "onions/onions_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "onions/onions_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "onions/onions_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "onions/onions_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "onions/onions_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_onions": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_onions_other": {
+      "type": ["null", "string"]
+    },
+    "beef/beef_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "beef/beef_unit_label": {
+      "type": ["null", "string"]
+    },
+    "beef/beef_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "beef/beef_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "beef/beef_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "beef/beef_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "beef/beef_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_beef": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_beef_other": {
+      "type": ["null", "string"]
+    },
+    "fish/fish_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "fish/fish_unit_label": {
+      "type": ["null", "string"]
+    },
+    "fish/fish_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "fish/fish_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "fish/fish_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "fish/fish_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "fish/fish_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_fish": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_fish_other": {
+      "type": ["null", "string"]
+    },
+    "chicken/chicken_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "chicken/chicken_unit_label": {
+      "type": ["null", "string"]
+    },
+    "chicken/chicken_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "chicken/chicken_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "chicken/chicken_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "chicken/chicken_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "chicken/chicken_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_chicken": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_chicken_other": {
+      "type": ["null", "string"]
+    },
+    "vitA_rich_fruits/vitA_rich_fruits_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "vitA_rich_fruits/vitA_rich_fruits_unit_label": {
+      "type": ["null", "string"]
+    },
+    "vitA_rich_fruits/vitA_rich_fruits_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "vitA_rich_fruits/vitA_rich_fruits_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "vitA_rich_fruits/vitA_rich_fruits_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "vitA_rich_fruits/vitA_rich_fruits_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "vitA_rich_fruits/vitA_rich_fruits_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "why_not_sell_vitA_rich_fruits": {
+      "type": ["null", "string"]
+    },
+    "why_not_sell_vitA_rich_fruits_other": {
+      "type": ["null", "string"]
+    },
+    "laundry_soap/laundry_soap_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "laundry_soap/laundry_soap_unit_label": {
+      "type": ["null", "string"]
+    },
+    "laundry_soap/laundry_soap_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "laundry_soap/laundry_soap_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "laundry_soap/laundry_soap_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "laundry_soap/laundry_soap_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "laundry_soap/laundry_soap_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "bathing_soap/bathing_soap_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "bathing_soap/bathing_soap_unit_label": {
+      "type": ["null", "string"]
+    },
+    "bathing_soap/bathing_soap_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "bathing_soap/bathing_soap_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "bathing_soap/bathing_soap_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "bathing_soap/bathing_soap_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "bathing_soap/bathing_soap_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "toothpaste/toothpaste_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "toothpaste/toothpaste_unit_label": {
+      "type": ["null", "string"]
+    },
+    "toothpaste/toothpaste_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "toothpaste/toothpaste_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "toothpaste/toothpaste_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "toothpaste/toothpaste_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "toothpaste/toothpaste_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "petroleum_jelly/petroleum_jelly_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "petroleum_jelly/petroleum_jelly_unit_label": {
+      "type": ["null", "string"]
+    },
+    "petroleum_jelly/petroleum_jelly_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "petroleum_jelly/petroleum_jelly_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "petroleum_jelly/petroleum_jelly_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "petroleum_jelly/petroleum_jelly_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "petroleum_jelly/petroleum_jelly_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sanitary_pads/sanitary_pads_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "sanitary_pads/sanitary_pads_unit_label": {
+      "type": ["null", "string"]
+    },
+    "sanitary_pads/sanitary_pads_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sanitary_pads/sanitary_pads_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sanitary_pads/sanitary_pads_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sanitary_pads/sanitary_pads_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "sanitary_pads/sanitary_pads_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "hand_sanitizer/hand_sanitizer_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "hand_sanitizer/hand_sanitizer_unit_label": {
+      "type": ["null", "string"]
+    },
+    "hand_sanitizer/hand_sanitizer_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "hand_sanitizer/hand_sanitizer_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "hand_sanitizer/hand_sanitizer_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "hand_sanitizer/hand_sanitizer_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "hand_sanitizer/hand_sanitizer_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "face_masks/face_masks_unit_measure": {
+      "type": ["null", "string"]
+    },
+    "face_masks/face_masks_unit_label": {
+      "type": ["null", "string"]
+    },
+    "face_masks/face_masks_retails_us_price": {
+      "type": ["null", "string", "number"]
+    },
+    "face_masks/face_masks_retails_za_rand_price": {
+      "type": ["null", "string", "number"]
+    },
+    "face_masks/face_masks_retails_bond_notes_price": {
+      "type": ["null", "string", "number"]
+    },
+    "face_masks/face_masks_retails_mobile_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "face_masks/face_masks_retails_plastic_money_price": {
+      "type": ["null", "string", "number"]
+    },
+    "hard_do_business": {
+      "type": ["null", "string"]
+    },
+    "hard_do_business_reason": {
+      "type": ["null", "string"]
+    },
+    "hard_do_business_reason_other": {
+      "type": ["null", "string"]
+    },
+    "comments_obervsations": {
+      "type": ["null", "string"]
+    },
+    "location_gps": {
+      "type": ["null", "string"]
+    },
+    "meta/instanceID": {
+      "type": ["null", "string"]
+    },
+    "_review_comment": {
+      "type": ["null", "string"]
+    },
+    "_review_status": {
+      "type": ["null", "string"]
+    },
+    "_status": {
+      "type": ["null", "string"]
+    },
+    "_edited": {
+      "type": ["null", "string", "boolean"]
+    },
+    "_version": {
+      "type": ["null", "string"]
+    },
+    "_duration": {
+      "type": ["null", "string"]
+    },
+    "_notes": {
+      "type": ["null", "string", "array"]
+    },
+    "_uuid": {
+      "type": ["null", "string"]
+    },
+    "_tags": {
+      "type": ["null", "string", "array"]
+    },
+    "_bamboo_dataset_id": {
+      "type": ["null", "string"]
+    },
+    "_attachments": {
+      "type": ["null", "string", "array"]
+    },
+    "_geolocation": {
+      "type": ["null", "string", "array"]
+    },
+    "_media_count": {
+      "type": ["null", "string", "number", "integer"]
+    },
+    "_total_media": {
+      "type": ["null", "string", "number", "integer"]
+    },
+    "_submitted_by": {
+      "type": ["null", "string"]
+    },
+    "_media_all_received": {
+      "type": ["null", "string", "boolean"]
+    },
+    "_xform_id_string": {
+      "type": ["null", "string"]
+    },
+    "_submission_time": {
+      "type": ["null", "string"]
+    },
+    "_xform_id": {
+      "type": ["null", "string", "number", "integer"]
+    },
+    "_date_modified": {
+      "type": ["null", "string"]
+    },
+    "_id": {
+      "type": ["null", "string"]
+    },
+    "formhub/uuid": {
+      "type": ["null", "string"]
+    }
+  },
+  "additionalProperties": true
+}
